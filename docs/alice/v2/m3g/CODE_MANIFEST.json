@@ -1,0 +1,127 @@
+{
+  "base": "953dc0fe8120bd6722274b1a4994fe1410349baa",
+  "candidate": "7c61693a0345252996a7f4f6ed673e639ce14fb0",
+  "branch": "alice/v2-m3g-real-browser-agent-provider-auth-view-v1",
+  "paths": [
+    "docs/alice/v2/m3g/.gitignore",
+    "docs/alice/v2/m3g/Alice-browser.html",
+    "docs/alice/v2/m3g/Open-Alice.cmd",
+    "docs/alice/v2/m3g/Open-Alice.ps1",
+    "docs/alice/v2/m3g/export-offline.mjs",
+    "src/components/AliceV2/ProviderSettings.test.tsx",
+    "src/components/AliceV2/ProviderSettings.tsx",
+    "src/components/AliceV2/Workspace.module.css",
+    "src/components/AliceV2/Workspace.tsx",
+    "src/components/AliceV2/messages.ts",
+    "src/components/AliceV2/useNavigation.test.tsx",
+    "src/components/AliceV2/useNavigation.ts",
+    "src/lib/aliceV2/providerUiOptions.test.ts",
+    "src/lib/aliceV2/providerUiOptions.ts",
+    "src/lib/aliceV2/runIntentBridge.test.ts"
+  ],
+  "sourcePaths": [
+    "src/components/AliceV2/ProviderSettings.test.tsx",
+    "src/components/AliceV2/ProviderSettings.tsx",
+    "src/components/AliceV2/Workspace.module.css",
+    "src/components/AliceV2/Workspace.tsx",
+    "src/components/AliceV2/messages.ts",
+    "src/components/AliceV2/useNavigation.test.tsx",
+    "src/components/AliceV2/useNavigation.ts",
+    "src/lib/aliceV2/providerUiOptions.test.ts",
+    "src/lib/aliceV2/providerUiOptions.ts",
+    "src/lib/aliceV2/runIntentBridge.test.ts"
+  ],
+  "browserSourcePaths": [
+    "docs/alice/v2/m3g/.gitignore",
+    "docs/alice/v2/m3g/Alice-browser.html",
+    "docs/alice/v2/m3g/Open-Alice.cmd",
+    "docs/alice/v2/m3g/Open-Alice.ps1",
+    "docs/alice/v2/m3g/export-offline.mjs"
+  ],
+  "files": [
+    {
+      "path": "docs/alice/v2/m3g/.gitignore",
+      "sha256": "c740db8c5771bc53deca3faf16465ffd78a57c5bc6df70143f0a8f422fb469ab",
+      "blob": "cc177394775ebd522a3b6695318e9dcefeb6c864"
+    },
+    {
+      "path": "docs/alice/v2/m3g/Alice-browser.html",
+      "sha256": "b82c21c744c7d135b1edbda955b40d20a25991d9629b556406eae33b9144510d",
+      "blob": "eb179c115f0b36281fb23ef9017b8011f442cc37"
+    },
+    {
+      "path": "docs/alice/v2/m3g/Open-Alice.cmd",
+      "sha256": "fc7776714ee5cab7bfd893c1b9bc75026a87e8035106d94b67eed6c50b560839",
+      "blob": "5e379c7b93dc67c7930c1b8b439c029f550f70c5"
+    },
+    {
+      "path": "docs/alice/v2/m3g/Open-Alice.ps1",
+      "sha256": "7e0a42090573cff83e91b29100434029be3594fde44dfbfd925a2f587092a44b",
+      "blob": "d0ea0d9a3a1ccc11bcff310f972a4f836afb28c0"
+    },
+    {
+      "path": "docs/alice/v2/m3g/export-offline.mjs",
+      "sha256": "837ca705f51c366d5188f11c383ac4e1c0ac611ce539cc95b542edba7e7e8769",
+      "blob": "aebfe5ae9dcbf5081f0cd3937ce1bef144c9789b"
+    },
+    {
+      "path": "src/components/AliceV2/ProviderSettings.test.tsx",
+      "sha256": "04c0d96be274fdaf85b8ce5356ecc562bd4d6e4f56f491b71c5bb3b3754a0adf",
+      "blob": "68c17853f6f09afc297a995d8158c4a51d36f77e"
+    },
+    {
+      "path": "src/components/AliceV2/ProviderSettings.tsx",
+      "sha256": "1676f80fbb62e90271a5bc7504f7b670db230e2f94f457bdc4d446c54b735655",
+      "blob": "a2539b668b728e4f7e7ff6e1113615620a29e6ab"
+    },
+    {
+      "path": "src/components/AliceV2/Workspace.module.css",
+      "sha256": "3a2cae73e1a9197b3f10e8bc55dd9ae66328de3508f9e74ea39caccf5e00326f",
+      "blob": "e27ac48ff54fa632555dd94d80b48bcc9d626dad"
+    },
+    {
+      "path": "src/components/AliceV2/Workspace.tsx",
+      "sha256": "ba049dca2b69748b81d8f406132a5c3e4de20ccf1eb1fa53060e15d57b8ebe7c",
+      "blob": "c6f9e96e1c186d4185178545767e3d60c8282da3"
+    },
+    {
+      "path": "src/components/AliceV2/messages.ts",
+      "sha256": "a6c86c8d2c6f3d9754933c01d968d8b1bb371e2273656a64e509b70ce6e6a1c8",
+      "blob": "3ad03af6a8e44693ef9de70f77b9489460d179c9"
+    },
+    {
+      "path": "src/components/AliceV2/useNavigation.test.tsx",
+      "sha256": "e6773dff4e818f158710c508e3241741bf27ffe97fe335a7c8283793e6867554",
+      "blob": "33e2f8143e4f4005a6ed13232ba968fc202c6bf3"
+    },
+    {
+      "path": "src/components/AliceV2/useNavigation.ts",
+      "sha256": "549cf16483919e5cc420bbf8c2454a69c02fe4fe70aa7b4a0368472207ea4786",
+      "blob": "bd1523bf2fe0f0062ec4b3995013d5e9f59db2f1"
+    },
+    {
+      "path": "src/lib/aliceV2/providerUiOptions.test.ts",
+      "sha256": "88974cfda1282b7abe4dae4079c20443fbd27e69311a890ccab9e9d802224d41",
+      "blob": "850e20ff7ec7299226f4db933a8d7c115ab80c92"
+    },
+    {
+      "path": "src/lib/aliceV2/providerUiOptions.ts",
+      "sha256": "478e1ae0ff68bb1a2ce14b6e62f8c672895b836f2d2fd48f03a46641898ee23d",
+      "blob": "7f18040b92f93b8d2c8fe26605f30e4cd7e35370"
+    },
+    {
+      "path": "src/lib/aliceV2/runIntentBridge.test.ts",
+      "sha256": "5dfd0b9745603187ef1dfdb29332be4a7e56cc9a5d6903a1cd2fd504ae053189",
+      "blob": "b2d0473ef179dc978ca2c0f1d26a6dada227f7a0"
+    }
+  ],
+  "entry": "docs/alice/v2/m3g/Alice-browser.html -> src/preview/main.tsx -> src/main.tsx -> App (no overrides)",
+  "url": "http://127.0.0.1:1448/docs/alice/v2/m3g/Alice-browser.html",
+  "immutableRunIntentBridge": true,
+  "codeCommits": [
+    "c8d646a7546cd983aaaa8b16d9b3d7ee2a8f75f7",
+    "39a87e666ae18fb1f3793730f0207c8bff5a1dec",
+    "59abdd933a316eb84762882d2355761364f466a7",
+    "7c61693a0345252996a7f4f6ed673e639ce14fb0"
+  ]
+}

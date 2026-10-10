@@ -1,0 +1,102 @@
+{
+  "source": "7c61693a0345252996a7f4f6ed673e639ce14fb0",
+  "checks": [
+    {
+      "name": "vitest",
+      "args": [
+        "node_modules/vitest/vitest.mjs",
+        "run",
+        "--config",
+        "docs/alice/v2/m3g/offline-regression.vitest.config.mjs",
+        "src/lib/aliceV2",
+        "src/components/AliceV2",
+        "src/lib/aliceModel.test.ts",
+        "src/lib/aliceBinding.test.ts",
+        "src/lib/alicePersistence.test.ts",
+        "src/lib/sessionLaunch.test.ts",
+        "src/lib/experimentalAgentPolicy.test.ts",
+        "src/lib/agentRuntimeAdapter.test.ts",
+        "src/securityPolicy.test.ts",
+        "--reporter=json",
+        "--outputFile=docs/alice/v2/m3g/TEST_INTEGRATED.json"
+      ],
+      "exit": 0,
+      "durationMs": 8168,
+      "stdout": "JSON report written to C:/Projetos/RumoAoMilhao-ASSISTENTE/.local/r271/alice/docs/alice/v2/m3g/TEST_INTEGRATED.json\n",
+      "stderr": ""
+    },
+    {
+      "name": "typescript",
+      "args": [
+        "node_modules/typescript/bin/tsc",
+        "--noEmit"
+      ],
+      "exit": 0,
+      "durationMs": 33223,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "eslint",
+      "args": [
+        "node_modules/eslint/bin/eslint.js",
+        "--max-warnings=0",
+        "src/components/AliceV2/ProviderSettings.test.tsx",
+        "src/components/AliceV2/ProviderSettings.tsx",
+        "src/components/AliceV2/Workspace.tsx",
+        "src/components/AliceV2/messages.ts",
+        "src/components/AliceV2/useNavigation.test.tsx",
+        "src/components/AliceV2/useNavigation.ts",
+        "src/lib/aliceV2/providerUiOptions.test.ts",
+        "src/lib/aliceV2/providerUiOptions.ts",
+        "src/lib/aliceV2/runIntentBridge.test.ts"
+      ],
+      "exit": 0,
+      "durationMs": 4208,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "prettier",
+      "args": [
+        "node_modules/prettier/bin/prettier.cjs",
+        "--check",
+        "src/components/AliceV2/ProviderSettings.test.tsx",
+        "src/components/AliceV2/ProviderSettings.tsx",
+        "src/components/AliceV2/Workspace.module.css",
+        "src/components/AliceV2/Workspace.tsx",
+        "src/components/AliceV2/messages.ts",
+        "src/components/AliceV2/useNavigation.test.tsx",
+        "src/components/AliceV2/useNavigation.ts",
+        "src/lib/aliceV2/providerUiOptions.test.ts",
+        "src/lib/aliceV2/providerUiOptions.ts",
+        "src/lib/aliceV2/runIntentBridge.test.ts"
+      ],
+      "exit": 0,
+      "durationMs": 1510,
+      "stdout": "Checking formatting...\nAll matched files use Prettier code style!\n",
+      "stderr": ""
+    },
+    {
+      "name": "git-diff",
+      "args": [
+        "diff",
+        "--check",
+        "953dc0fe8120bd6722274b1a4994fe1410349baa",
+        "7c61693a0345252996a7f4f6ed673e639ce14fb0"
+      ],
+      "exit": 0,
+      "durationMs": 115,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "tests": {
+    "total": 446,
+    "passed": 446,
+    "failed": 0,
+    "files": 21
+  },
+  "status": "PASS",
+  "native": "NOT_RUN"
+}

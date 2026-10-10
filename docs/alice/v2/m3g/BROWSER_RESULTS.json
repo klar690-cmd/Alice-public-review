@@ -1,0 +1,153 @@
+{
+  "source": "7c61693a0345252996a7f4f6ed673e639ce14fb0",
+  "entry": "docs/alice/v2/m3g/Alice-browser.html -> src/preview/main.tsx -> src/main.tsx -> App (no overrides)",
+  "url": "http://127.0.0.1:1448/docs/alice/v2/m3g/Alice-browser.html",
+  "browser": "154.0.8037.98",
+  "mode": "Existing full App and actual useAliceV2Navigation; isolated synthetic local bridge data; no mainOverride or alternate UI",
+  "checks": [
+    "HTTP200 concrete local Alice App route",
+    "Original Home starts first with supplied profile/ASCII and personalized name",
+    "Labeled Agents & connections tab reaches existing node editor",
+    "Two obvious configuration choices do not pretend to connect the local simulation",
+    "GG selects OpenAI/API independently; no key or login field",
+    "Worker begins with its own local default",
+    "Anthropic/account preference is selected but truthfully unavailable, no auth window",
+    "GG still holds OpenAI/API after worker changes",
+    "New worker has independent unset preference",
+    "Company change clears stale method to simulation",
+    "Existing manual port drag connects the new worker before save",
+    "Teams remain independent",
+    "Saved original team retains GG OpenAI/API",
+    "Existing real theme picker applies preserved Cream & Rose",
+    "Narrow App document has no horizontal overflow",
+    "Real project navigation gives project B an independent GG default",
+    "Returning to original real project restores OpenAI/API GG",
+    "Actual local profile switch does not inherit another profile provider",
+    "Switching back restores the correct project/profile GG preference",
+    "Selecting another node scrolls its inspector back to configuration choices",
+    "Existing Accounts manager and profile controls still work",
+    "Actual house route returns to preserved Home",
+    "No external HTTP, browser auth popup or page errors",
+    "Real bundled offline file opens and configures GG/API without network",
+    "Offline worker account choice remains unavailable and independent",
+    "No offline or HTTP page errors",
+    "Actual local profile creation with numeric UUID opens agent settings without changing account IDs or relaxing graph IDs"
+  ],
+  "errors": [],
+  "external": [],
+  "screenshots": [
+    {
+      "file": "screenshots/01-actual-home-original.png",
+      "caption": "Existing Alice full App Home before entering Agents & connections.",
+      "source": "7c61693a0345252996a7f4f6ed673e639ce14fb0",
+      "viewport": {
+        "width": 1600,
+        "height": 1100
+      },
+      "theme": "elite-indigo",
+      "sha256": "81871a9734951de3319487970e19b675f02d6a19a36d24347936fabd27d0751c"
+    },
+    {
+      "file": "screenshots/02-gg-openai-api-original.png",
+      "caption": "GG OpenAI/Codex + Use API in the actual App inspector; integration pending, no key requested.",
+      "source": "7c61693a0345252996a7f4f6ed673e639ce14fb0",
+      "viewport": {
+        "width": 1600,
+        "height": 1100
+      },
+      "theme": "elite-indigo",
+      "sha256": "df2e9fa68d34ffc70c1f40f6e96ca83b712aa2ce14b76011060052515a4991e7"
+    },
+    {
+      "file": "screenshots/03-worker-anthropic-account-original.png",
+      "caption": "Dev Anthropic/Claude account preference selected; account connection unavailable, no login started.",
+      "source": "7c61693a0345252996a7f4f6ed673e639ce14fb0",
+      "viewport": {
+        "width": 1600,
+        "height": 1100
+      },
+      "theme": "elite-indigo",
+      "sha256": "a9ace41a02092f9b7f81e8f2d534c525c7adb545815024ab95aa73f3857b8a1d"
+    },
+    {
+      "file": "screenshots/04-new-google-agent-original.png",
+      "caption": "New logical worker uses the existing Google Antigravity provider option with API preference only.",
+      "source": "7c61693a0345252996a7f4f6ed673e639ce14fb0",
+      "viewport": {
+        "width": 1600,
+        "height": 1100
+      },
+      "theme": "elite-indigo",
+      "sha256": "ede799f69ddfea0e3969d64d8b54af1b1c30a50571789ff14a23a5c765824e41"
+    },
+    {
+      "file": "screenshots/05-account-choice-cream-rose.png",
+      "caption": "The same existing App/editor and account preference in the preserved Cream & Rose theme.",
+      "source": "7c61693a0345252996a7f4f6ed673e639ce14fb0",
+      "viewport": {
+        "width": 1600,
+        "height": 1100
+      },
+      "theme": "cream-rose",
+      "sha256": "21334096728febe41c22ea1079763359bed7333dc692b3e40dff501330493c5f"
+    },
+    {
+      "file": "screenshots/06-account-choice-narrow.png",
+      "caption": "Actual 850px App, scrolled to the existing inspector so both company and account/API choices are fully visible.",
+      "source": "7c61693a0345252996a7f4f6ed673e639ce14fb0",
+      "viewport": {
+        "width": 850,
+        "height": 1200
+      },
+      "theme": "cream-rose",
+      "sha256": "f8949e522c4f5fab17858c13db5151a18ad605d307b556cb6f8012bfe29dba4e"
+    },
+    {
+      "file": "screenshots/07-project-b-independent.png",
+      "caption": "Existing project creation/navigation scopes an independent GG preference in project B; terminal dialog cancelled without launching anything.",
+      "source": "7c61693a0345252996a7f4f6ed673e639ce14fb0",
+      "viewport": {
+        "width": 1600,
+        "height": 1100
+      },
+      "theme": "cream-rose",
+      "sha256": "d269a3f46dbe587d2e65a0a25b5803618f88d9472844f0096f5b8048d52ea60c"
+    },
+    {
+      "file": "screenshots/08-profile-b-independent.png",
+      "caption": "Actual existing local-profile UI switches to an independent agent configuration; no account/provider login.",
+      "source": "7c61693a0345252996a7f4f6ed673e639ce14fb0",
+      "viewport": {
+        "width": 1600,
+        "height": 1100
+      },
+      "theme": "elite-indigo",
+      "sha256": "eba1a413855cfe40bf34e32bd19fb78fb79881dba04cda8bca556a7073d21944"
+    },
+    {
+      "file": "screenshots/09-offline-actual-app.png",
+      "caption": "The same bundled full Alice App running from file://, with actual account/API inspector.",
+      "source": "7c61693a0345252996a7f4f6ed673e639ce14fb0",
+      "viewport": {
+        "width": 1600,
+        "height": 1100
+      },
+      "theme": "elite-indigo",
+      "sha256": "0885e7bcc76b685bae97262680d8cb5d4bc3f1d8c9e24be9ac0dc2e649a28ba4"
+    }
+  ],
+  "httpStatus": "PASS",
+  "offline": {
+    "url": "file:///C:/Projetos/RumoAoMilhao-ASSISTENTE/.local/r271/alice/docs/alice/v2/m3g/Alice-V2-preview.html",
+    "bytes": 31458483,
+    "sha256": "2cab89a3741e27efa46b35b107e6eeb19110c5127b0da79a0f13823ec6aef9fc",
+    "external": [],
+    "status": "PASS"
+  },
+  "status": "PASS",
+  "narrowRecapture": {
+    "sameSource": "7c61693a0345252996a7f4f6ed673e639ce14fb0",
+    "scope": "Actual App; separate fresh local fixture context; no UI/source manipulation",
+    "external": []
+  }
+}

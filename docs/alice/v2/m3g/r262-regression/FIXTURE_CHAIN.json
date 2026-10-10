@@ -1,0 +1,447 @@
+{
+  "marker": "SIMULATED_OFFLINE_ONLY",
+  "executedAgainstProviders": false,
+  "run": {
+    "marker": "SIMULATED_OFFLINE_ONLY",
+    "executable": false,
+    "projectId": "projectA",
+    "graphRevision": 1,
+    "runId": "run1",
+    "tick": 0,
+    "status": "completed",
+    "availableUnits": 12,
+    "spentUnits": 3,
+    "nodes": [
+      {
+        "nodeId": "gg",
+        "status": "completed",
+        "attemptId": "gg_attempt1",
+        "reservation": 0,
+        "spent": 1,
+        "reason": null,
+        "cursor": 5,
+        "fixtureStatus": "SIMULATED_ONLY"
+      },
+      {
+        "nodeId": "codex",
+        "status": "completed",
+        "attemptId": "codex_attempt1",
+        "reservation": 0,
+        "spent": 1,
+        "reason": null,
+        "cursor": 5,
+        "fixtureStatus": "SIMULATED_ONLY"
+      },
+      {
+        "nodeId": "claude",
+        "status": "completed",
+        "attemptId": "claude_attempt1",
+        "reservation": 0,
+        "spent": 1,
+        "reason": null,
+        "cursor": 5,
+        "fixtureStatus": "RUNTIME_BLOCKED_SIMULATED_FIXTURE"
+      }
+    ],
+    "trace": [
+      {
+        "marker": "SIMULATED_OFFLINE_ONLY",
+        "sequence": 1,
+        "eventId": "run1_gg_1_1",
+        "scope": {
+          "projectId": "projectA",
+          "graphRevision": 1,
+          "nodeId": "gg",
+          "runId": "run1",
+          "attemptId": "gg_attempt1",
+          "provider": "codex",
+          "mode": "local-app-server"
+        },
+        "kind": "started",
+        "detail": "SIMULATED_ONLY"
+      },
+      {
+        "marker": "SIMULATED_OFFLINE_ONLY",
+        "sequence": 2,
+        "eventId": "run1_gg_1_2",
+        "scope": {
+          "projectId": "projectA",
+          "graphRevision": 1,
+          "nodeId": "gg",
+          "runId": "run1",
+          "attemptId": "gg_attempt1",
+          "provider": "codex",
+          "mode": "local-app-server"
+        },
+        "kind": "text",
+        "detail": "projectA_run1_gg_gg_attempt1_3"
+      },
+      {
+        "marker": "SIMULATED_OFFLINE_ONLY",
+        "sequence": 3,
+        "eventId": "run1_gg_1_3",
+        "scope": {
+          "projectId": "projectA",
+          "graphRevision": 1,
+          "nodeId": "gg",
+          "runId": "run1",
+          "attemptId": "gg_attempt1",
+          "provider": "codex",
+          "mode": "local-app-server"
+        },
+        "kind": "usage",
+        "detail": "projectA_run1_gg_gg_attempt1_4"
+      },
+      {
+        "marker": "SIMULATED_OFFLINE_ONLY",
+        "sequence": 4,
+        "eventId": "run1_gg_1_4",
+        "scope": {
+          "projectId": "projectA",
+          "graphRevision": 1,
+          "nodeId": "gg",
+          "runId": "run1",
+          "attemptId": "gg_attempt1",
+          "provider": "codex",
+          "mode": "local-app-server"
+        },
+        "kind": "completed",
+        "detail": "projectA_run1_gg_gg_attempt1_5"
+      },
+      {
+        "marker": "SIMULATED_OFFLINE_ONLY",
+        "sequence": 5,
+        "eventId": "run1_gg_1_5",
+        "scope": {
+          "projectId": "projectA",
+          "graphRevision": 1,
+          "nodeId": "gg",
+          "runId": "run1",
+          "attemptId": "gg_attempt1",
+          "provider": "codex",
+          "mode": "local-app-server"
+        },
+        "kind": "handoff",
+        "detail": "codex"
+      },
+      {
+        "marker": "SIMULATED_OFFLINE_ONLY",
+        "sequence": 6,
+        "eventId": "run1_codex_1_6",
+        "scope": {
+          "projectId": "projectA",
+          "graphRevision": 1,
+          "nodeId": "codex",
+          "runId": "run1",
+          "attemptId": "codex_attempt1",
+          "provider": "codex",
+          "mode": "local-app-server"
+        },
+        "kind": "approval-required",
+        "detail": "approval_codex_1"
+      },
+      {
+        "marker": "SIMULATED_OFFLINE_ONLY",
+        "sequence": 7,
+        "eventId": "run1_codex_1_7",
+        "scope": {
+          "projectId": "projectA",
+          "graphRevision": 1,
+          "nodeId": "codex",
+          "runId": "run1",
+          "attemptId": "codex_attempt1",
+          "provider": "codex",
+          "mode": "local-app-server"
+        },
+        "kind": "started",
+        "detail": "SIMULATED_ONLY"
+      },
+      {
+        "marker": "SIMULATED_OFFLINE_ONLY",
+        "sequence": 8,
+        "eventId": "run1_codex_1_8",
+        "scope": {
+          "projectId": "projectA",
+          "graphRevision": 1,
+          "nodeId": "codex",
+          "runId": "run1",
+          "attemptId": "codex_attempt1",
+          "provider": "codex",
+          "mode": "local-app-server"
+        },
+        "kind": "text",
+        "detail": "projectA_run1_codex_codex_attempt1_3"
+      },
+      {
+        "marker": "SIMULATED_OFFLINE_ONLY",
+        "sequence": 9,
+        "eventId": "run1_codex_1_9",
+        "scope": {
+          "projectId": "projectA",
+          "graphRevision": 1,
+          "nodeId": "codex",
+          "runId": "run1",
+          "attemptId": "codex_attempt1",
+          "provider": "codex",
+          "mode": "local-app-server"
+        },
+        "kind": "usage",
+        "detail": "projectA_run1_codex_codex_attempt1_4"
+      },
+      {
+        "marker": "SIMULATED_OFFLINE_ONLY",
+        "sequence": 10,
+        "eventId": "run1_codex_1_10",
+        "scope": {
+          "projectId": "projectA",
+          "graphRevision": 1,
+          "nodeId": "codex",
+          "runId": "run1",
+          "attemptId": "codex_attempt1",
+          "provider": "codex",
+          "mode": "local-app-server"
+        },
+        "kind": "completed",
+        "detail": "projectA_run1_codex_codex_attempt1_5"
+      },
+      {
+        "marker": "SIMULATED_OFFLINE_ONLY",
+        "sequence": 11,
+        "eventId": "run1_codex_1_11",
+        "scope": {
+          "projectId": "projectA",
+          "graphRevision": 1,
+          "nodeId": "codex",
+          "runId": "run1",
+          "attemptId": "codex_attempt1",
+          "provider": "codex",
+          "mode": "local-app-server"
+        },
+        "kind": "handoff",
+        "detail": "claude"
+      },
+      {
+        "marker": "SIMULATED_OFFLINE_ONLY",
+        "sequence": 12,
+        "eventId": "run1_claude_1_12",
+        "scope": {
+          "projectId": "projectA",
+          "graphRevision": 1,
+          "nodeId": "claude",
+          "runId": "run1",
+          "attemptId": "claude_attempt1",
+          "provider": "claude",
+          "mode": "local-cli-json"
+        },
+        "kind": "started",
+        "detail": "RUNTIME_BLOCKED_SIMULATED_FIXTURE"
+      },
+      {
+        "marker": "SIMULATED_OFFLINE_ONLY",
+        "sequence": 13,
+        "eventId": "run1_claude_1_13",
+        "scope": {
+          "projectId": "projectA",
+          "graphRevision": 1,
+          "nodeId": "claude",
+          "runId": "run1",
+          "attemptId": "claude_attempt1",
+          "provider": "claude",
+          "mode": "local-cli-json"
+        },
+        "kind": "text",
+        "detail": "projectA_run1_claude_claude_attempt1_3"
+      },
+      {
+        "marker": "SIMULATED_OFFLINE_ONLY",
+        "sequence": 14,
+        "eventId": "run1_claude_1_14",
+        "scope": {
+          "projectId": "projectA",
+          "graphRevision": 1,
+          "nodeId": "claude",
+          "runId": "run1",
+          "attemptId": "claude_attempt1",
+          "provider": "claude",
+          "mode": "local-cli-json"
+        },
+        "kind": "usage",
+        "detail": "projectA_run1_claude_claude_attempt1_4"
+      },
+      {
+        "marker": "SIMULATED_OFFLINE_ONLY",
+        "sequence": 15,
+        "eventId": "run1_claude_1_15",
+        "scope": {
+          "projectId": "projectA",
+          "graphRevision": 1,
+          "nodeId": "claude",
+          "runId": "run1",
+          "attemptId": "claude_attempt1",
+          "provider": "claude",
+          "mode": "local-cli-json"
+        },
+        "kind": "completed",
+        "detail": "projectA_run1_claude_claude_attempt1_5"
+      }
+    ]
+  },
+  "ir": {
+    "format": "alice.n8n.offline-ir.v1",
+    "marker": "SIMULATED_OFFLINE_ONLY",
+    "deployable": false,
+    "connectionState": "not-connected",
+    "executed": false,
+    "simulationOnly": true,
+    "executable": false,
+    "projectId": "projectA",
+    "graphRevision": 1,
+    "runId": "run1",
+    "budgetUnits": 15,
+    "concurrency": 1,
+    "approvalPolicy": "human-fixture-explicit",
+    "nodes": [
+      {
+        "id": "gg",
+        "role": "gg",
+        "provider": "codex",
+        "dependsOn": [],
+        "maxUnits": 5,
+        "tools": [
+          "read"
+        ],
+        "needsApproval": false,
+        "approvalTimeoutTicks": 3,
+        "deadlineTicks": 10,
+        "maxAttempts": 2,
+        "projectId": "projectA",
+        "graphRevision": 1,
+        "runId": "run1",
+        "attemptId": "gg_attempt1",
+        "method": "codex.app-server.fixture-v1",
+        "runtimeState": "NOT_NATIVE_CERTIFIED",
+        "nativeExecutable": false,
+        "steps": [
+          "wait.dependencies",
+          "check.offline-grant",
+          "pause.human-fixture",
+          "reserve.fixture-budget",
+          "replay.fixture",
+          "validate.mock-output",
+          "handoff.once"
+        ]
+      },
+      {
+        "id": "codex",
+        "role": "worker",
+        "provider": "codex",
+        "dependsOn": [
+          "gg"
+        ],
+        "maxUnits": 5,
+        "tools": [
+          "read",
+          "write"
+        ],
+        "needsApproval": true,
+        "approvalTimeoutTicks": 3,
+        "deadlineTicks": 10,
+        "maxAttempts": 2,
+        "projectId": "projectA",
+        "graphRevision": 1,
+        "runId": "run1",
+        "attemptId": "codex_attempt1",
+        "method": "codex.app-server.fixture-v1",
+        "runtimeState": "NOT_NATIVE_CERTIFIED",
+        "nativeExecutable": false,
+        "steps": [
+          "wait.dependencies",
+          "check.offline-grant",
+          "pause.human-fixture",
+          "reserve.fixture-budget",
+          "replay.fixture",
+          "validate.mock-output",
+          "handoff.once"
+        ]
+      },
+      {
+        "id": "claude",
+        "role": "worker",
+        "provider": "claude",
+        "dependsOn": [
+          "codex"
+        ],
+        "maxUnits": 5,
+        "tools": [
+          "read"
+        ],
+        "needsApproval": false,
+        "approvalTimeoutTicks": 3,
+        "deadlineTicks": 10,
+        "maxAttempts": 2,
+        "projectId": "projectA",
+        "graphRevision": 1,
+        "runId": "run1",
+        "attemptId": "claude_attempt1",
+        "method": "claude.stream-json.fixture-v1",
+        "runtimeState": "UNAVAILABLE_BLOCKED_UNSUPPORTED",
+        "nativeExecutable": false,
+        "steps": [
+          "wait.dependencies",
+          "check.offline-grant",
+          "pause.human-fixture",
+          "reserve.fixture-budget",
+          "replay.fixture",
+          "validate.mock-output",
+          "handoff.once"
+        ]
+      }
+    ],
+    "edges": [
+      {
+        "from": "gg",
+        "to": "codex",
+        "on": "mock.completed",
+        "projectId": "projectA",
+        "graphRevision": 1,
+        "runId": "run1"
+      },
+      {
+        "from": "codex",
+        "to": "claude",
+        "on": "mock.completed",
+        "projectId": "projectA",
+        "graphRevision": 1,
+        "runId": "run1"
+      }
+    ],
+    "callbackContract": {
+      "version": "future-broker-required",
+      "implemented": false,
+      "networkAccepted": false,
+      "proof": "NONE_OFFLINE_UNTRUSTED"
+    }
+  },
+  "ledger": {
+    "projectId": "projectA",
+    "graphRevision": 1,
+    "runId": "run1",
+    "cursors": [
+      {
+        "nodeId": "gg",
+        "attemptId": "gg_attempt1",
+        "cursor": 1
+      },
+      {
+        "nodeId": "codex",
+        "attemptId": "codex_attempt1",
+        "cursor": 1
+      },
+      {
+        "nodeId": "claude",
+        "attemptId": "claude_attempt1",
+        "cursor": 0
+      }
+    ]
+  }
+}

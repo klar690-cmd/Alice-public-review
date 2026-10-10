@@ -1,0 +1,159 @@
+{
+  "status": "PASS",
+  "base": "bdabac7e63478f41400e71868ef95bfb2e281ab4",
+  "source": "b85fa553a16e61d372140496c4636a9556594c66",
+  "scope": [
+    "docs/alice/v2/m2/sidebar-drag/HOME_FUNCTION_INVENTORY.md",
+    "docs/alice/v2/m2/sidebar-drag/README.md",
+    "src/App.tsx",
+    "src/components/AliceV2/Canvas.tsx",
+    "src/components/AliceV2/Navigation.tsx",
+    "src/components/AliceV2/Workspace.module.css",
+    "src/components/AliceV2/Workspace.tsx",
+    "src/components/AliceV2/messages.ts",
+    "src/components/ProjectSidebar/NormalProjectSidebar.tsx",
+    "src/components/ProjectSidebar/index.tsx",
+    "src/lib/aliceV2/uiAdapter.ui.test.ts",
+    "src/preview/aliceV2/main.tsx",
+    "src/stores/aliceV2UiStore.ts"
+  ],
+  "core": [
+    "src/components/HomeView",
+    "src/lib/aliceV2/uiAdapter.ts",
+    "src/lib/aliceV2/contracts.ts",
+    "src/lib/aliceV2/validate.ts",
+    "src/lib/aliceV2/compile.ts",
+    "src/lib/aliceV2/fakeExecutor.ts",
+    "src/lib/aliceV2/m1.test.ts",
+    "src/plugins/theme-pack",
+    "package.json",
+    "package-lock.json",
+    "src-tauri",
+    "src/stores/uiStore.ts",
+    "src/lib/featureFlags.ts"
+  ],
+  "preserved": [
+    {
+      "path": "docs/CHANGELOG.md",
+      "sha256": "28af247c774b14546b7149330119c149e776507f46db7d7cc0a6f9e47a47dc05",
+      "current": "28af247c774b14546b7149330119c149e776507f46db7d7cc0a6f9e47a47dc05",
+      "unchanged": true
+    },
+    {
+      "path": "src/App.module.css",
+      "sha256": "4ca2086293d159b74fe74ec5453c2536554eb31266627fd03190675886035a75",
+      "current": "4ca2086293d159b74fe74ec5453c2536554eb31266627fd03190675886035a75",
+      "unchanged": true
+    },
+    {
+      "path": "src/App.tsx",
+      "sha256": "e159821e34498fda71e96999c735af5c4bc0a9bd0d0b3552437682569e398e70",
+      "current": "e159821e34498fda71e96999c735af5c4bc0a9bd0d0b3552437682569e398e70",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/HomeView/HomeView.module.css",
+      "sha256": "e2d146549dc559c57b9ea40bd0cd2c0e1966d196cb0f5bf68c82931ac9ce9a09",
+      "current": "e2d146549dc559c57b9ea40bd0cd2c0e1966d196cb0f5bf68c82931ac9ce9a09",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/HomeView/index.tsx",
+      "sha256": "545dba8f17d367478428ad7ea1c38873d4a103573e6f7c5afc3d7bcc4a4eb0df",
+      "current": "545dba8f17d367478428ad7ea1c38873d4a103573e6f7c5afc3d7bcc4a4eb0df",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/MainMenu/index.tsx",
+      "sha256": "d3b5b694e44120a6fe4718e3e3199ca04ff6ccad51cc0113f6afc52237d473fd",
+      "current": "d3b5b694e44120a6fe4718e3e3199ca04ff6ccad51cc0113f6afc52237d473fd",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/modals/Modal.module.css",
+      "sha256": "2f55dbbdb2128fc21d4f02a3ddc0160e83e5538f6165e896b1ef30f5e489930f",
+      "current": "2f55dbbdb2128fc21d4f02a3ddc0160e83e5538f6165e896b1ef30f5e489930f",
+      "unchanged": true
+    },
+    {
+      "path": "src/components/modals/WelcomeModal.module.css",
+      "sha256": "3fa6fbb7427c7d5c8e192f8d0db242ac7ba2bb690d325d0ece4eaa7058f92587",
+      "current": "3fa6fbb7427c7d5c8e192f8d0db242ac7ba2bb690d325d0ece4eaa7058f92587",
+      "unchanged": true
+    },
+    {
+      "path": "src/lib/i18n/messages/en.ts",
+      "sha256": "1811821ba804ee8b207f2bdfc8dff174d1d2c5d356cc24142e4cca00ea0e6bc7",
+      "current": "1811821ba804ee8b207f2bdfc8dff174d1d2c5d356cc24142e4cca00ea0e6bc7",
+      "unchanged": true
+    },
+    {
+      "path": "src/lib/i18n/messages/pt-BR.ts",
+      "sha256": "c173eb22a6f0acea33e231843370fa5fa6047b3b5da2a46fc63089d926e396c4",
+      "current": "c173eb22a6f0acea33e231843370fa5fa6047b3b5da2a46fc63089d926e396c4",
+      "unchanged": true
+    },
+    {
+      "path": "src/lib/i18n/messages/zh-CN.ts",
+      "sha256": "6c0eda75685917d79dbcd8eef2c53a37b60bc129f8bce31f112549239a4d4fe2",
+      "current": "6c0eda75685917d79dbcd8eef2c53a37b60bc129f8bce31f112549239a4d4fe2",
+      "unchanged": true
+    },
+    {
+      "path": "src/plugins/theme-pack/main.ts",
+      "sha256": "9d5a671d52d96526727156c77fea13e89aed03178742a1ad190ead771d3974f5",
+      "current": "9d5a671d52d96526727156c77fea13e89aed03178742a1ad190ead771d3974f5",
+      "unchanged": true
+    },
+    {
+      "path": "src/plugins/theme-pack/themes.ts",
+      "sha256": "ec885b78fe917cafff7fa8cd4abce49d158ea908124f489d57cde2e25e583aee",
+      "current": "ec885b78fe917cafff7fa8cd4abce49d158ea908124f489d57cde2e25e583aee",
+      "unchanged": true
+    },
+    {
+      "path": "docs/alice/cream-rose/REPORT.md",
+      "sha256": "5a7af9a1877dd8e67d2dfbef8417a2ab64f5adfe071350a7bafef712c5c4aeba",
+      "current": "5a7af9a1877dd8e67d2dfbef8417a2ab64f5adfe071350a7bafef712c5c4aeba",
+      "unchanged": true
+    },
+    {
+      "path": "src/plugins/theme-pack/cream-rose.css",
+      "sha256": "d7c7688033f500b6569dc28b80c7a27dc0db3bb9fae6d916f1e58573b5b9a379",
+      "current": "d7c7688033f500b6569dc28b80c7a27dc0db3bb9fae6d916f1e58573b5b9a379",
+      "unchanged": true
+    },
+    {
+      "path": "src/plugins/theme-pack/creamRose.test.ts",
+      "sha256": "b8c08d4410ac0ae65e5fad5f1e3337aace4648abe4a2b819170b5ec29f96de95",
+      "current": "b8c08d4410ac0ae65e5fad5f1e3337aace4648abe4a2b819170b5ec29f96de95",
+      "unchanged": true
+    },
+    {
+      "path": "src/plugins/theme-pack/creamRose.ts",
+      "sha256": "b4f68dc84344a23240f26d20c8390a202e146a80fa09ef7a7ceb133345ae3501",
+      "current": "b4f68dc84344a23240f26d20c8390a202e146a80fa09ef7a7ceb133345ae3501",
+      "unchanged": true
+    }
+  ],
+  "refs": {
+    "alice/r213-alethe-fork-v1": {
+      "expected": "5f9f8ff71576d90bbe7da6d0e25e33880480768f",
+      "actual": "5f9f8ff71576d90bbe7da6d0e25e33880480768f"
+    },
+    "alice/r241-windows-test-workflow-draft-v1": {
+      "expected": "d19a3db6b7073c7b413029b74c173d26b6915e67",
+      "actual": "d19a3db6b7073c7b413029b74c173d26b6915e67"
+    },
+    "alice/v2-m1-graph-contracts-fake-handoff-v1": {
+      "expected": "656a6999a0bfad2070b2e12fc5dd7feb80e69dda",
+      "actual": "656a6999a0bfad2070b2e12fc5dd7feb80e69dda"
+    },
+    "alice/v2-m2-optin-gg-node-editor-v1": {
+      "expected": "bdabac7e63478f41400e71868ef95bfb2e281ab4",
+      "actual": "bdabac7e63478f41400e71868ef95bfb2e281ab4"
+    }
+  },
+  "originalBranch": "codex/alice-cream-rose-theme",
+  "originalHead": "44e5048f464c1f57becc6106abcd12f52d3f4a01"
+}

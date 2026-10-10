@@ -1,0 +1,13 @@
+# R256 — plug editor entry and preserved accounts tab
+
+Task `PHASE_ASSISTENTE_R256_ALICE_V2_PLUG_ICON_GRAPH_DEFAULT_ACCOUNTS_TAB_V1`, revision 1, generation 77, session `ASSISTENTE-20261009-ALICE-V2-PLUG-EDITOR-01`. Coordination R257 keeps the R256 navigation-only contract unchanged. Exact functional base: `2c488dc29afa83336e2d8685422036a26ec64127`; isolated execution branch: `alice/v2-m2-plug-connections-editor-default-v1`.
+
+The existing contributed plug view `alice-accounts` opens Alice V2 **Node editor** in the original main-content shell. It retains the contributed icon, localized title and rail contribution order. The redundant separate V2 navigation icon is omitted. Home stays the initial view; the original Home icon returns there. This routing is supplied both by the standard App path and the isolated preview entry, not only by a floating preview control.
+
+The inner **Accounts & providers / Contas e provedores** tab embeds the original `AliceConnectionsView` unchanged. It retains existing profile-scoped accounts, `Manage connections`, `Profiles`, `New panel` and linked-agent pane handlers. It does not introduce authentication or duplicate account data. Opening an existing supported pane yields to the original workspace; graph drafts and fake run state survive Home/account/workspace toggles within the same session. The team sidebar is hidden while viewing accounts for usable width.
+
+Conversa, Editor de nós, Equipes and Andamento remain. M1/M2 graph execution remains fake-only, without n8n or real providers. Standard App demo state is isolated per existing profile and uses session memory; this is not per-project GG integration or durable team storage. Existing account/profile persistence is reused without migration. Legacy n8n/connection controls remain visible as before, but no connection/test/event is performed in this task.
+
+Original exact profile PNG, separate right-aligned moon-free ASCII, animation code and Original / Cream & Rose themes are unchanged. The 17 protected unpublished files in the original dirty worktree remain intact. No manifests, locks, dependency install, native Windows build, runtime/auth adapter edits, paid call, Actions, default-branch merge, PR or release.
+
+With the existing caches, the source preview route is `http://127.0.0.1:1436/src/preview/aliceV2/index.html`; the standard App smoke route is `http://127.0.0.1:1436/src/preview/aliceV2/classic.html`. Use the existing preview Vite configuration. PREVIEWS.md will identify exact source, actual screenshots and downloadable self-contained HTML. Browser evidence is not native Windows or independent QA.

@@ -1,0 +1,17 @@
+{
+  "source": "7c61693a0345252996a7f4f6ed673e639ce14fb0",
+  "lifecycle": [
+    "RUNNING http://127.0.0.1:1448/docs/alice/v2/m3g/Alice-browser.html"
+  ],
+  "restartTest": "PASS_START_STOP_START_OWN_PROCESS_ONLY_AFTER_WAIT_TERMINATION",
+  "httpStatus": 200,
+  "listeners": [
+    {
+      "LocalAddress": "127.0.0.1",
+      "LocalPort": 1448,
+      "OwningProcess": 4604
+    }
+  ],
+  "oldPreview1446Untouched": true,
+  "userServerRunning": true
+}

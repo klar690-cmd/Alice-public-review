@@ -1,0 +1,12 @@
+/* Optional skin only. Original layout, fonts and movement remain inherited. */
+:root[data-theme='cream-rose'] {
+  color-scheme: light;
+}
+:root[data-theme='cream-rose'] :where(input, select, textarea) {
+  accent-color: var(--accent);
+}
+:root[data-theme='cream-rose']
+  :where(button, a, input, select, textarea, [role='tab']):focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 2px;
+}

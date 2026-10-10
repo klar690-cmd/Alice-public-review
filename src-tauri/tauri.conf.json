@@ -1,0 +1,123 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "Alice",
+  "version": "1.7.0-alice.1",
+  "identifier": "com.klar690.alice",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "devUrl": "http://127.0.0.1:1422",
+    "beforeBuildCommand": "npm run build",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "Alice",
+        "width": 1280,
+        "height": 800,
+        "minWidth": 800,
+        "minHeight": 500,
+        "resizable": true,
+        "decorations": false
+      }
+    ],
+    "security": {
+      "csp": {
+        "default-src": [
+          "'none'"
+        ],
+        "object-src": [
+          "'none'"
+        ],
+        "base-uri": [
+          "'none'"
+        ],
+        "form-action": [
+          "'none'"
+        ],
+        "frame-ancestors": [
+          "'none'"
+        ],
+        "script-src": [
+          "'self'",
+          "alethe-plugin:",
+          "http://alethe-plugin.localhost"
+        ],
+        "style-src": [
+          "'self'",
+          "'unsafe-inline'",
+          "alethe-plugin:",
+          "http://alethe-plugin.localhost"
+        ],
+        "img-src": [
+          "'self'",
+          "data:",
+          "asset:",
+          "http://asset.localhost",
+          "alethe-plugin:",
+          "http://alethe-plugin.localhost",
+          "http:",
+          "https:"
+        ],
+        "media-src": [
+          "'self'",
+          "asset:",
+          "http://asset.localhost",
+          "mediastream:",
+          "blob:"
+        ],
+        "font-src": [
+          "'self'",
+          "alethe-plugin:",
+          "http://alethe-plugin.localhost"
+        ],
+        "connect-src": [
+          "'self'",
+          "ipc:",
+          "http://ipc.localhost",
+          "https://registry.npmjs.org",
+          "https://api.github.com"
+        ],
+        "worker-src": [
+          "'none'"
+        ],
+        "frame-src": [
+          "asset:",
+          "http://asset.localhost",
+          "http:",
+          "https:"
+        ]
+      },
+      "devCsp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "createUpdaterArtifacts": false,
+    "targets": "all",
+    "publisher": "Alice contributors",
+    "shortDescription": "Terminal multiplexer GUI",
+    "longDescription": "Alice is a Windows-first terminal multiplexer GUI: projects on the left, split-pane terminals on the right, with sub-tabs per pane.",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ],
+    "windows": {
+      "webviewInstallMode": {
+        "type": "embedBootstrapper"
+      }
+    }
+  },
+  "plugins": {
+    "updater": {
+      "endpoints": [],
+      "windows": {
+        "installMode": "passive"
+      },
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDdERjQwQTVDMDJFMDY3QzQKUldURVorQUNYQXIwZlpTZjNhc1dNamhiSERnalducjJCdDdiR0NFYy8ydnJqcU52VG05cFNqcHUK"
+    }
+  }
+}

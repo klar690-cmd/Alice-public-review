@@ -1,0 +1,46 @@
+{
+  "task": "PHASE_ASSISTENTE_R213_ALICE_ALETHE_FORK_V1",
+  "taskRevision": 2,
+  "coordinationRevision": "COORD-2026-10-07-R214",
+  "sessionId": "ASSISTENTE-20261007-ALICE-ALETHE-FORK-01",
+  "authorizationGeneration": 59,
+  "upstream": "7f0288c98098bda2c859d4065733aa6e9b4b74f9",
+  "packageVersion": "1.7.0-alice.1",
+  "preview": {
+    "file": "Alice-preview-R213.html",
+    "sha256": "95b8d7fba41189164f072bace436e73d0e29769bbaf19afca45ea25c50e280d0",
+    "bytes": 28952885
+  },
+  "screenshots": [
+    {
+      "path": "screenshots/accounts.jpg",
+      "sha256": "8dccbe4753c83832d6bceb801b124df7c61acaa1071f89db31790fddc72c4124",
+      "bytes": 63855
+    },
+    {
+      "path": "screenshots/group-projects.jpg",
+      "sha256": "8cbcdfca97030e475bf6d669156dfd60ca16ccf04afa9c8af70c5d9efd38a805",
+      "bytes": 102296
+    },
+    {
+      "path": "screenshots/home.jpg",
+      "sha256": "e99a5cd1f951991e8663b295ac295de1b8354d510aceaf19910bdea1d670b1e6",
+      "bytes": 118246
+    },
+    {
+      "path": "screenshots/html-preview.jpg",
+      "sha256": "69d5e178664b5a4098f1167745aa8afb8a63478441c77463bd32470d15f89f99",
+      "bytes": 29186
+    },
+    {
+      "path": "screenshots/n8n-session.jpg",
+      "sha256": "44df4d16f77e849fa39cc563ce0bdc6027f45bde92dba679fe40427fa8ddfae1",
+      "bytes": 63746
+    },
+    {
+      "path": "screenshots/workspace.jpg",
+      "sha256": "a2c430f8b095f4b5b78eed8bacfdbf18c4013956f38422a58bbddcb0ecd55de7",
+      "bytes": 29194
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "candidate": "fe804e34b1ad43244ec1ac8401c9576079244e3b",
+  "base": "eaeb7b942b882685a97786e66df7fd91fd3b9dec",
+  "tests": {
+    "m1": 72,
+    "m2": 19,
+    "classicRegression": 20,
+    "total": 111,
+    "failed": 0
+  },
+  "typecheck": "PASS",
+  "scopedLint": "PASS",
+  "frontendBuild": "PASS_BROWSER_ONLY",
+  "nativeBuild": "NOT_RUN",
+  "realAgents": "NOT_RUN",
+  "realN8n": "NOT_RUN",
+  "paidService": "NOT_USED",
+  "preview": {
+    "file": "Alice-V2-M2-preview.html",
+    "bytes": 31515197,
+    "sha256": "c7702d5477c120dc665c1da3b9385046304437696031ca46cad3e626fa9c671d"
+  },
+  "screenshots": 14,
+  "browserChecks": 10,
+  "portableChecks": 3
+}

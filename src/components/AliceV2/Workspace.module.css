@@ -1,0 +1,1234 @@
+.shell {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: var(--bg);
+  color: var(--fg);
+  font: 13px/1.45 var(--font-sans);
+  min-width: 0;
+  overflow: hidden;
+}
+.accountsPanel {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 24px;
+}
+.accountsPanel > p {
+  margin-top: 8px;
+  margin-bottom: 12px;
+}
+.embedded .header {
+  height: 42px;
+  min-height: 42px;
+  padding: 0 16px;
+}
+.embedded .brand img,
+.embedded .brand strong {
+  display: none;
+}
+.body[data-teams-collapsed='true'] .teamSidebar {
+  display: none;
+}
+.draftEdge {
+  fill: none;
+  stroke: var(--accent);
+  stroke-width: 2;
+  stroke-dasharray: 6 4;
+}
+.draftOverlay {
+  position: absolute;
+  inset: 0;
+  overflow: visible;
+  pointer-events: none;
+  z-index: 5;
+}
+.shell .port[data-drop-target='true'] {
+  outline: 3px solid var(--accent);
+  outline-offset: 3px;
+}
+.shell button,
+.shell input,
+.shell select,
+.shell textarea {
+  font: inherit;
+}
+.shell button {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--bg-elevated);
+  color: var(--fg);
+  padding: 8px 11px;
+  cursor: pointer;
+  white-space: normal;
+}
+.shell button:hover:not(:disabled) {
+  background: var(--panel-hover);
+  border-color: var(--border-strong);
+}
+.shell button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+.shell button:focus-visible,
+.shell input:focus-visible,
+.shell textarea:focus-visible,
+.shell select:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+.shell .primary {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--accent-on);
+  font-weight: 600;
+}
+.shell .primary:hover:not(:disabled) {
+  background: var(--accent-strong);
+}
+.shell h1,
+.shell h2,
+.shell h3,
+.shell p {
+  margin: 0;
+}
+.shell h1 {
+  font-size: 22px;
+  letter-spacing: -0.025em;
+  font-weight: 600;
+}
+.shell h2 {
+  font-size: 16px;
+  font-weight: 600;
+}
+.shell h3 {
+  font-size: 13px;
+  font-weight: 600;
+}
+.header {
+  height: 60px;
+  min-height: 60px;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  border-bottom: 1px solid var(--border);
+  background: var(--bg-elevated);
+}
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.brand img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+}
+.brand strong {
+  font-size: 16px;
+  letter-spacing: -0.02em;
+}
+.badge {
+  display: inline-flex;
+  padding: 4px 7px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  font-size: 10px;
+  color: var(--fg-muted);
+  line-height: 1.3;
+}
+.notice {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 24px;
+  background: var(--accent-faint);
+  color: var(--fg-muted);
+  border-bottom: 1px solid var(--border);
+  font-size: 11px;
+}
+.dot {
+  width: 6px;
+  height: 6px;
+  background: var(--accent);
+  border-radius: 50%;
+}
+.body {
+  display: flex;
+  flex: 1;
+  min-height: 0;
+}
+.teamSidebar {
+  width: 212px;
+  min-width: 212px;
+  padding: 26px 16px 14px;
+  border-right: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: var(--bg-sunken);
+}
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.11em;
+  font-size: 10px;
+  font-weight: 600;
+  color: var(--fg-muted);
+}
+.shell .teamButton {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  text-align: left;
+  padding: 12px 10px;
+  border-color: transparent;
+  background: transparent;
+}
+.shell .teamButton strong {
+  font-size: 12px;
+  font-weight: 500;
+}
+.teamButton span:last-child {
+  min-width: 0;
+}
+.teamButton small {
+  display: block;
+  margin-top: 3px;
+  color: var(--fg-faint);
+  font-size: 10px;
+}
+.shell .teamActive {
+  background: var(--panel);
+  border-color: var(--border);
+}
+.teamMark {
+  color: var(--accent);
+  font-size: 22px;
+}
+.sidebarClone {
+  margin-top: 4px;
+}
+.sessionNotice {
+  font-size: 10px;
+  line-height: 1.6;
+  color: var(--fg-faint);
+  margin-top: 10px !important;
+}
+.teamSidebar footer {
+  margin-top: auto;
+  font-size: 10px;
+  color: var(--fg-faint);
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+}
+.main {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.viewHeader {
+  padding: 26px 28px 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+}
+.viewHeader h1 {
+  margin: 4px 0;
+}
+.muted {
+  color: var(--fg-muted);
+  font-size: 11px;
+  line-height: 1.6;
+}
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.tabs {
+  display: flex;
+  gap: 22px;
+  padding: 0 28px;
+  border-bottom: 1px solid var(--border);
+}
+.shell .tabs button {
+  border: 0;
+  border-bottom: 2px solid transparent;
+  background: transparent;
+  border-radius: 0;
+  color: var(--fg-muted);
+  padding: 12px 0;
+  font-size: 12px;
+}
+.shell .tabs .tabActive {
+  color: var(--fg);
+  border-bottom-color: var(--accent);
+  font-weight: 600;
+}
+.error,
+.success {
+  padding: 10px 24px;
+  font-size: 12px;
+  border-bottom: 1px solid var(--border);
+}
+.error {
+  background: var(--status-offline-soft);
+  color: var(--status-offline);
+}
+.success {
+  background: var(--status-working-soft);
+  color: var(--status-working);
+}
+.chatLayout {
+  display: grid;
+  grid-template-columns: minmax(330px, 1fr) 312px;
+  gap: 24px;
+  padding: 24px 28px;
+  flex: 1;
+  min-height: 0;
+  overflow: auto;
+}
+.chat {
+  display: flex;
+  flex-direction: column;
+  min-height: 420px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  background: var(--bg-elevated);
+  overflow: hidden;
+}
+.chatHeader {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--border);
+}
+.chatHeader small {
+  font-size: 10px;
+  color: var(--fg-muted);
+}
+.chatHeader .badge {
+  margin-left: auto;
+}
+.managerIcon {
+  width: 34px;
+  height: 34px;
+  display: grid;
+  place-items: center;
+  background: var(--accent-soft);
+  color: var(--accent);
+  border: 1px solid var(--accent-border);
+  border-radius: var(--radius-md);
+  font: 600 16px var(--font-mono);
+}
+.messages {
+  flex: 1;
+  min-height: 230px;
+  padding: 24px;
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.message {
+  max-width: 560px;
+  padding: 17px 19px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  background: var(--panel);
+}
+.message p {
+  font-size: 13px;
+  line-height: 1.7;
+  margin-top: 8px;
+}
+.message small {
+  display: block;
+  color: var(--fg-faint);
+  font-size: 10px;
+  margin-top: 9px;
+}
+.userMessage {
+  margin-left: auto;
+  background: var(--accent-faint);
+  border-color: var(--accent-border-soft);
+}
+.suggestions {
+  display: flex;
+  gap: 8px;
+  margin-top: 15px;
+  flex-wrap: wrap;
+}
+.shell .suggestions button {
+  font-size: 11px;
+}
+.composer {
+  margin: 0 20px 20px;
+  padding: 12px 13px;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-md);
+  background: var(--bg-sunken);
+}
+.composer textarea {
+  width: 100%;
+  min-height: 72px;
+  resize: vertical;
+  max-height: 140px;
+  border: 0 !important;
+  background: transparent !important;
+  padding: 0 !important;
+}
+.composer > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-top: 12px;
+}
+.composer small {
+  color: var(--fg-faint);
+  font-size: 10px;
+}
+.overview {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-self: start;
+}
+.routeList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.routeCard {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+  padding: 14px 11px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  background: var(--bg-elevated);
+}
+.routeCard strong {
+  font-size: 12px;
+}
+.routeCard small {
+  display: block;
+  color: var(--fg-faint);
+  font-size: 10px;
+  margin-top: 3px;
+}
+.routeNumber {
+  width: 22px;
+  height: 22px;
+  display: grid;
+  place-items: center;
+  background: var(--accent-soft);
+  color: var(--accent);
+  border-radius: 50%;
+  font: 11px var(--font-mono);
+}
+.routeCard .nodeStatus {
+  margin-left: auto;
+  font-size: 9px;
+  max-width: 90px;
+}
+.nodeStatus {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 3px 6px;
+  font-size: 10px;
+  color: var(--fg-muted);
+  line-height: 1.3;
+}
+.nodeStatus[data-status='running'] {
+  color: var(--status-working);
+  background: var(--status-working-soft);
+  border-color: var(--status-working);
+}
+.nodeStatus[data-status='succeeded'] {
+  color: var(--status-working);
+  background: var(--status-working-soft);
+}
+.nodeStatus[data-status='failed'] {
+  color: var(--status-offline);
+  background: var(--status-offline-soft);
+}
+.runControls {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-top: 1px solid var(--border);
+  padding-top: 18px;
+  margin-top: 2px;
+}
+.runControls .badge {
+  align-self: start;
+}
+.runControls strong {
+  font-size: 13px;
+}
+.runControls p {
+  color: var(--fg-muted);
+  font-size: 11px;
+}
+.waiting {
+  color: var(--status-waiting);
+  font-size: 12px;
+  font-weight: 600;
+}
+.editorLayout {
+  display: grid;
+  grid-template-columns: minmax(360px, 1fr) 290px;
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+}
+.canvasColumn {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  border-right: 1px solid var(--border);
+}
+.toolbar {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 14px 18px;
+  border-bottom: 1px solid var(--border);
+}
+.toolbar > span {
+  font-size: 12px;
+  color: var(--fg-muted);
+  margin-right: auto;
+}
+.shell .toolbar button {
+  font-size: 11px;
+}
+.canvas {
+  position: relative;
+  flex: 1;
+  min-height: 490px;
+  overflow: hidden;
+  background: var(--bg);
+}
+.grid {
+  position: absolute;
+  inset: 0;
+  opacity: 0.6;
+  pointer-events: none;
+}
+.panSurface {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  cursor: grab !important;
+  touch-action: none;
+}
+.world {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 2200px;
+  height: 1300px;
+  transform-origin: 0 0;
+  pointer-events: none;
+  transition: none;
+}
+.edges {
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: visible;
+  pointer-events: none;
+}
+.edge {
+  fill: none;
+  stroke: var(--accent);
+  stroke-width: 1.5;
+  opacity: 0.65;
+}
+.node {
+  position: absolute;
+  width: 230px;
+  min-height: 168px;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-md);
+  background: var(--bg-elevated);
+  box-shadow: var(--shadow-sm);
+  pointer-events: auto;
+}
+.nodeSelected {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 1px var(--accent);
+}
+.shell .nodeHead {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 14px;
+  border: 0;
+  border-bottom: 1px solid var(--border);
+  background: transparent;
+  border-radius: var(--radius-md) var(--radius-md) 0 0;
+  text-align: left;
+  cursor: grab;
+  touch-action: none;
+}
+.nodeHead strong {
+  display: block;
+  font-size: 14px;
+}
+.nodeHead small {
+  display: block;
+  font-size: 10px;
+  color: var(--fg-muted);
+  margin-top: 3px;
+}
+.nodeIcon {
+  width: 34px;
+  height: 34px;
+  display: grid;
+  place-items: center;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  font: 600 15px var(--font-mono);
+}
+.manager {
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+.worker {
+  background: var(--agent-codex-soft);
+  color: var(--agent-codex);
+}
+.reviewer {
+  background: var(--status-working-soft);
+  color: var(--status-working);
+}
+.grip {
+  margin-left: auto;
+  color: var(--fg-faint);
+  font-size: 14px;
+}
+.nodeContent {
+  padding: 16px 14px;
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  align-items: center;
+}
+.nodeContent .muted {
+  font-size: 10px;
+}
+.nodeFoot {
+  padding: 10px 14px;
+  background: var(--bg-sunken);
+  border-top: 1px solid var(--border);
+  border-radius: 0 0 var(--radius-md) var(--radius-md);
+  font-size: 10px;
+  color: var(--fg-muted);
+}
+.shell .port {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  padding: 0;
+  border-radius: 50%;
+  border: 3px solid var(--bg-elevated);
+  background: var(--accent);
+  box-shadow: 0 0 0 1px var(--accent);
+  z-index: 2;
+}
+.shell .port:hover {
+  background: var(--accent-strong);
+}
+.portIn {
+  left: -10px;
+}
+.portOut {
+  right: -10px;
+  top: 75px;
+}
+.shell .portPicked {
+  box-shadow: 0 0 0 3px var(--focus-ring);
+}
+.canvasHelp {
+  position: absolute;
+  bottom: 16px;
+  left: 18px;
+  color: var(--fg-faint);
+  font-size: 10px;
+  max-width: 50%;
+  pointer-events: none;
+}
+.zoomControls {
+  position: absolute;
+  bottom: 14px;
+  right: 18px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 5px;
+}
+.shell .zoomControls button {
+  border: 0;
+  padding: 4px 8px;
+  background: transparent;
+}
+.zoomControls span {
+  font: 10px var(--font-mono);
+  min-width: 38px;
+  text-align: center;
+}
+.inspector {
+  padding: 23px 20px;
+  overflow: auto;
+  background: var(--bg-elevated);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.inspector h2 {
+  margin-top: 2px;
+}
+.shell label {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--fg-muted);
+}
+.shell input,
+.shell select,
+.shell textarea {
+  background: var(--bg-sunken);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  color: var(--fg);
+  padding: 9px 10px;
+  max-width: 100%;
+  min-width: 0;
+}
+.shell textarea {
+  resize: vertical;
+  min-height: 82px;
+}
+.shell select:disabled {
+  opacity: 0.8;
+}
+.shell .danger {
+  color: var(--status-offline);
+}
+.connectionForm {
+  border-top: 1px solid var(--border);
+  padding-top: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 4px;
+}
+.connectionRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--fg-muted);
+  font-size: 10px;
+  gap: 8px;
+}
+.shell .connectionRow button {
+  border: 0;
+  background: transparent;
+  padding: 2px 6px;
+  font-size: 17px;
+}
+.presetView {
+  padding: 28px;
+  overflow: auto;
+}
+.presetView header p {
+  margin-top: 7px;
+  color: var(--fg-muted);
+  font-size: 12px;
+}
+.presetGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 18px;
+  margin-top: 24px;
+}
+.presetCard {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 23px;
+  background: var(--bg-elevated);
+}
+.presetCard h2 {
+  margin: 10px 0 20px;
+}
+.presetCard p {
+  margin: 18px 0 14px;
+}
+.miniRoute {
+  display: flex;
+  gap: 7px;
+  flex-wrap: wrap;
+}
+.miniRoute span {
+  padding: 7px 10px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  font: 11px var(--font-mono);
+  color: var(--accent);
+  background: var(--accent-faint);
+}
+.teamSettings {
+  display: flex;
+  align-items: end;
+  gap: 18px;
+  margin-top: 26px;
+  padding: 22px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  max-width: 740px;
+  background: var(--bg-elevated);
+}
+.teamSettings label {
+  flex: 1;
+}
+.monitor {
+  padding: 24px 28px;
+  overflow: auto;
+}
+.monitorTop {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  align-items: start;
+}
+.monitorTop h2 {
+  margin-top: 8px;
+}
+.monitorTop .runControls {
+  border: 0;
+  padding: 0;
+  max-width: 550px;
+  flex: 1;
+}
+.agentProgress {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 14px;
+  margin-top: 24px;
+}
+.agentProgress article {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 16px;
+  background: var(--bg-elevated);
+  flex-wrap: wrap;
+}
+.agentProgress .nodeStatus {
+  margin-left: auto;
+}
+.monitorColumns {
+  display: grid;
+  grid-template-columns: minmax(200px, 0.8fr) minmax(300px, 1.2fr);
+  gap: 26px;
+  margin-top: 26px;
+}
+.timeline {
+  list-style: none;
+  padding: 0;
+  margin: 14px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.timeline li {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 10px;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+}
+.timeline li > span {
+  font: 10px var(--font-mono);
+  color: var(--accent);
+  width: 24px;
+  text-align: center;
+}
+.timeline small {
+  display: block;
+  color: var(--fg-muted);
+  font-size: 10px;
+  margin-top: 3px;
+}
+.timeline strong {
+  font-size: 11px;
+  font-weight: 500;
+}
+.output {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  font: 11px/1.7 var(--font-mono);
+  padding: 16px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  background: var(--bg-elevated);
+  color: var(--fg);
+  margin: 14px 0;
+}
+.monitor details {
+  margin-top: 18px;
+  color: var(--fg-muted);
+  font-size: 11px;
+}
+.monitor summary {
+  cursor: pointer;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 9px 20px;
+  border-top: 1px solid var(--border);
+  color: var(--fg-faint);
+  background: var(--bg-elevated);
+  font-size: 9px;
+}
+.landing {
+  height: 100%;
+  display: grid;
+  place-items: center;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-sans);
+  padding: 30px;
+}
+.landingCard {
+  max-width: 700px;
+  padding: 44px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  background: var(--bg-elevated);
+}
+.landingCard img {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+}
+.landingCard h1 {
+  font-size: 36px;
+  font-weight: 600;
+  letter-spacing: -0.04em;
+  margin: 24px 0 14px;
+}
+.landingCard p {
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--fg-muted);
+}
+.landingCard small {
+  display: block;
+  font-size: 11px;
+  color: var(--fg-faint);
+  margin-top: 17px;
+}
+.landingCard button,
+.landingCard a {
+  display: inline-block;
+  margin-top: 26px;
+  padding: 12px 17px;
+  border: 1px solid var(--accent);
+  border-radius: var(--radius-md);
+  background: var(--accent);
+  color: var(--accent-on);
+  font-size: 13px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.landingCard a {
+  margin-left: 12px;
+  background: transparent;
+  border-color: var(--border);
+  color: var(--fg);
+}
+@media (max-width: 1150px) {
+  .teamSidebar {
+    width: 170px;
+    min-width: 170px;
+    padding-inline: 10px;
+  }
+  .chatLayout {
+    grid-template-columns: minmax(300px, 1fr) 255px;
+    gap: 16px;
+    padding: 18px;
+  }
+  .editorLayout {
+    grid-template-columns: minmax(320px, 1fr) 260px;
+  }
+  .viewHeader {
+    padding: 20px;
+  }
+  .inspector {
+    padding: 18px 15px;
+  }
+  .routeCard {
+    flex-wrap: wrap;
+  }
+  .routeCard .nodeStatus {
+    max-width: none;
+  }
+}
+@media (max-width: 920px) {
+  .body {
+    overflow: auto;
+  }
+  .teamSidebar {
+    width: 150px;
+    min-width: 150px;
+  }
+  .chatLayout {
+    display: flex;
+    flex-direction: column;
+    overflow: visible;
+  }
+  .main {
+    overflow: visible;
+    min-height: 0;
+  }
+  .chat {
+    min-height: 460px;
+  }
+  .overview {
+    width: 100%;
+  }
+  .editorLayout {
+    display: flex;
+    flex-direction: column;
+    overflow: visible;
+  }
+  .canvasColumn {
+    min-height: 530px;
+    border-right: 0;
+  }
+  .canvas {
+    flex: none;
+    height: 470px;
+    min-height: 470px;
+  }
+  .inspector {
+    border-top: 1px solid var(--border);
+  }
+  .monitorColumns {
+    display: flex;
+    flex-direction: column;
+  }
+  .monitorTop {
+    flex-direction: column;
+  }
+  .viewHeader {
+    align-items: start;
+    flex-wrap: wrap;
+  }
+  .header {
+    padding: 10px 15px;
+    height: auto;
+    min-height: 60px;
+  }
+  .brand {
+    gap: 8px;
+  }
+  .brand .badge {
+    display: none;
+  }
+  .footer {
+    flex-wrap: wrap;
+  }
+  .tabs {
+    gap: 17px;
+    padding: 0 20px;
+  }
+  .teamSettings {
+    flex-wrap: wrap;
+  }
+  .presetView,
+  .monitor {
+    padding: 20px;
+  }
+  .landingCard {
+    padding: 30px;
+  }
+  .landingCard h1 {
+    font-size: 28px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .shell *,
+  .shell *::before,
+  .shell *::after {
+    transition: none !important;
+    animation: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.previewEntry {
+  position: fixed;
+  right: 22px;
+  bottom: 64px;
+  z-index: 90;
+  border: 1px solid var(--accent);
+  border-radius: var(--radius-md);
+  background: var(--accent);
+  color: var(--accent-on);
+  padding: 10px 14px;
+  font: 12px var(--font-sans);
+  cursor: pointer;
+}
+.previewEntry:focus-visible {
+  outline: 2px solid var(--focus-ring);
+  outline-offset: 3px;
+}
+.nodeHead > span:nth-child(2) {
+  min-width: 0;
+}
+.nodeHead strong,
+.nodeHead small {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.nodeContent {
+  flex-wrap: wrap;
+}
+
+.providerSettings {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  min-width: 0;
+}
+.providerStep {
+  color: var(--fg);
+  font-size: 13px;
+}
+.authChoices {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  min-width: 0;
+}
+.authChoices legend {
+  color: var(--fg);
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.authChoiceGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+  margin-bottom: 8px;
+}
+.authChoiceGrid button {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+  min-width: 0;
+  padding: 12px 8px;
+  text-align: left;
+  white-space: normal;
+  overflow-wrap: anywhere;
+}
+.authChoiceGrid button svg {
+  flex-shrink: 0;
+}
+.authChoiceGrid button[aria-pressed='true'] {
+  border-color: var(--accent);
+  box-shadow: inset 0 0 0 1px var(--accent);
+}
+.authChoiceGrid small {
+  display: block;
+  color: var(--fg-muted);
+  font-size: 10px;
+  margin-top: 4px;
+}
+.providerNotice {
+  padding: 12px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  background: var(--bg-elevated);
+  color: var(--fg);
+  font-size: 12px;
+  line-height: 1.55;
+  overflow-wrap: anywhere;
+}
+.providerNotice p {
+  margin: 8px 0;
+}
+.providerNotice small {
+  display: block;
+  margin-top: 6px;
+  color: var(--fg-muted);
+}
+.providerSettings select,
+.providerSettings input {
+  width: 100%;
+  min-width: 0;
+}
+.providerLimits {
+  padding: 10px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  color: var(--fg-muted);
+  font-size: 12px;
+}
+.providerLimits summary {
+  cursor: pointer;
+  color: var(--fg);
+}
+.providerLimits dl {
+  margin: 12px 0 0;
+}
+.providerLimits dt {
+  color: var(--fg);
+  font-weight: 600;
+  margin-top: 10px;
+}
+.providerLimits dd {
+  margin: 3px 0;
+  line-height: 1.5;
+}
+.accountsShortcut {
+  align-self: flex-start;
+}

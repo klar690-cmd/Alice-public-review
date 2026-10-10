@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "engine": "Isolated Chrome headless; local standalone HTML",
+  "errors": [],
+  "blocked": [],
+  "checks": [
+    "Standalone opens on classic personalized Home",
+    "Standalone enters editable M2 without any server",
+    "Standalone runs approved deterministic M1 simulation"
+  ]
+}

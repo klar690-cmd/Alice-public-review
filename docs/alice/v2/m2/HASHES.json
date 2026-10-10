@@ -1,0 +1,146 @@
+{
+  "candidate": "fe804e34b1ad43244ec1ac8401c9576079244e3b",
+  "algorithm": "SHA-256",
+  "files": [
+    {
+      "path": "docs/alice/v2/m2/Alice-V2-M2-preview.html",
+      "bytes": 31515197,
+      "sha256": "c7702d5477c120dc665c1da3b9385046304437696031ca46cad3e626fa9c671d"
+    },
+    {
+      "path": "docs/alice/v2/m2/CHANGELOG.md",
+      "bytes": 638,
+      "sha256": "b4ae341638045a6b34018979e707b22ff68a147f0261e77513dcfc41ae9bdb40"
+    },
+    {
+      "path": "docs/alice/v2/m2/PREVIEWS.md",
+      "bytes": 5738,
+      "sha256": "8d6789847c3b94d647e067ba8d3f476832d6a608dd1e80c10bbd779f86de446f"
+    },
+    {
+      "path": "docs/alice/v2/m2/README.md",
+      "bytes": 2517,
+      "sha256": "ee7b64419ec66fe81df72e705a23c5cdae11843278538b4cf189076fa2fd9035"
+    },
+    {
+      "path": "docs/alice/v2/m2/RESULT.md",
+      "bytes": 4519,
+      "sha256": "a8f9ec0656cf6285f975fdce467d82a40904087b1a4a13c2717434c47c0d4e9b"
+    },
+    {
+      "path": "docs/alice/v2/m2/browser-results.json",
+      "bytes": 4145,
+      "sha256": "063470e15091343862c52eeb6de9db95cb15a5552cd88dcd5d52f48d01551f50"
+    },
+    {
+      "path": "docs/alice/v2/m2/logs/classic-regressions.txt",
+      "bytes": 3092,
+      "sha256": "bfe2331c230b6a90cfb7195efd12cf6c8cdd8fe18e5b6e7439d37cc1b9cd53ec"
+    },
+    {
+      "path": "docs/alice/v2/m2/logs/lint.txt",
+      "bytes": 199,
+      "sha256": "ffe642c734ff81e623602503d65fddeb3adea914083ac7d674ea44353c0430cb"
+    },
+    {
+      "path": "docs/alice/v2/m2/logs/preview-build.txt",
+      "bytes": 574,
+      "sha256": "a8a85cfc14df724db618c2b7da34b4f8d6ce70867a2e07ede6e5156f918d0aea"
+    },
+    {
+      "path": "docs/alice/v2/m2/logs/tests.txt",
+      "bytes": 14509,
+      "sha256": "d0f981e136b2a6db83c7b942ed09fd5d3f3fd4d6eca971f14dd2e8408f5909ff"
+    },
+    {
+      "path": "docs/alice/v2/m2/logs/typecheck.txt",
+      "bytes": 68,
+      "sha256": "1d1e02c6e490cde914029a7a723f9286d64a2c3be40d133fb76771c3322e62dd"
+    },
+    {
+      "path": "docs/alice/v2/m2/portable-results.json",
+      "bytes": 305,
+      "sha256": "d8e5d4bbf4858cfcabc5944e5780769350c6ef505caef55d147ac2a22a4be05f"
+    },
+    {
+      "path": "docs/alice/v2/m2/preservation.json",
+      "bytes": 7263,
+      "sha256": "022d5d7be724ae6dbc0ff35c633c07d49d996dd1234d2fe36fbe0eff1f29c562"
+    },
+    {
+      "path": "docs/alice/v2/m2/screenshots/01-home-original.png",
+      "bytes": 203143,
+      "sha256": "c873e73d02f8d2967e5a7a0abe7dfa7e030c10ebb10a3f3d929a4a0d492899b0"
+    },
+    {
+      "path": "docs/alice/v2/m2/screenshots/02-gg-chat.png",
+      "bytes": 71939,
+      "sha256": "929b108b7af331e5cdcfb17a9ba62b881516511fa393d48e27fe8d2400acf957"
+    },
+    {
+      "path": "docs/alice/v2/m2/screenshots/03-chat-approval.png",
+      "bytes": 80087,
+      "sha256": "2232a6b351f44d333db469bfb489dbe8a707ba55de598a098d75866c32b5044b"
+    },
+    {
+      "path": "docs/alice/v2/m2/screenshots/04-node-editor.png",
+      "bytes": 81216,
+      "sha256": "894881bc15eb26de20ecbd27ae28fdaa06720a464850ac797b5b83478214d8be"
+    },
+    {
+      "path": "docs/alice/v2/m2/screenshots/05-inspector.png",
+      "bytes": 87634,
+      "sha256": "adac5e5b52397afe027f489cdf533f092176a5087ef16b72f25a2e47ca8642a6"
+    },
+    {
+      "path": "docs/alice/v2/m2/screenshots/06-cycle-rejected.png",
+      "bytes": 86640,
+      "sha256": "06370f7f4bf647f83eb96fdbe47ba6a517f096e68938be86098306cc5e328a77"
+    },
+    {
+      "path": "docs/alice/v2/m2/screenshots/07-teams.png",
+      "bytes": 70017,
+      "sha256": "f538a6c543087a3665eb4fff1e3516b2d3dc3a1e0c17e65c3901879801d94f37"
+    },
+    {
+      "path": "docs/alice/v2/m2/screenshots/08-running-replay.png",
+      "bytes": 78767,
+      "sha256": "ba4763811e6dfeab9f40c16cbdfba404ad43ea5d3212e03d615ca29cbbe3e669"
+    },
+    {
+      "path": "docs/alice/v2/m2/screenshots/09-completed-replay.png",
+      "bytes": 95170,
+      "sha256": "3688b410a32e5d660a88718e76637922902180ad1e9d8d8fdd6298a3c692787d"
+    },
+    {
+      "path": "docs/alice/v2/m2/screenshots/10-editor-cream-rose.png",
+      "bytes": 93314,
+      "sha256": "fa0c70258ddb7ca8296d11f063b0219991852d545594c3c43d5707ed6baebd5e"
+    },
+    {
+      "path": "docs/alice/v2/m2/screenshots/11-chat-cream-rose.png",
+      "bytes": 92611,
+      "sha256": "fbeceaa9704cad05b7e0e7e00a2729bf8afb3b7d965f75b2f1ca407e2e92bb48"
+    },
+    {
+      "path": "docs/alice/v2/m2/screenshots/12-editor-narrow.png",
+      "bytes": 68483,
+      "sha256": "1f70fa1cf8242510aa8c3bd399903912af4541c4cc6c885ef4607c4195c30385"
+    },
+    {
+      "path": "docs/alice/v2/m2/screenshots/13-return-home.png",
+      "bytes": 202678,
+      "sha256": "1d26205b5da45ecfdf5c0227d4fca44692330336b45cedab116bfb9ce6a8eec4"
+    },
+    {
+      "path": "docs/alice/v2/m2/screenshots/14-standalone-editor.png",
+      "bytes": 78326,
+      "sha256": "cb9f8938fff93cf5f0451f53f3c414e2ed37c103dd44f45bfbaec73bfa2ba896"
+    },
+    {
+      "path": "docs/alice/v2/m2/validation.json",
+      "bytes": 650,
+      "sha256": "3050b34b3fbfc4a477f0e889125dd3e366835539e6acc8653ece78f1025acc5b"
+    }
+  ]
+}

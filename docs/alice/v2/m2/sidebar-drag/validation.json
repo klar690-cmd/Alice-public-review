@@ -1,0 +1,41 @@
+{
+  "source": "b85fa553a16e61d372140496c4636a9556594c66",
+  "base": "bdabac7e63478f41400e71868ef95bfb2e281ab4",
+  "authority": "Direct owner request and explicit authorization; GG held duplicate R252",
+  "tests": {
+    "m1": 72,
+    "m2": 20,
+    "classic": 20,
+    "total": 112,
+    "failed": 0
+  },
+  "browser": {
+    "checks": 14,
+    "status": "PASS",
+    "errors": [],
+    "external": []
+  },
+  "portable": {
+    "status": "PASS",
+    "engine": "Isolated Chrome headless; local standalone HTML",
+    "errors": [],
+    "blocked": [],
+    "checks": [
+      "Standalone opens on classic personalized Home",
+      "Standalone enters editable M2 without any server",
+      "Standalone runs approved deterministic M1 simulation"
+    ]
+  },
+  "preview": {
+    "file": "Alice-sidebar-drag-preview.html",
+    "bytes": 31525292,
+    "sha256": "ccbf81134bc8521f58d39af32821e93a12728e0145ae8ebf8d59b22a0ba09984"
+  },
+  "typecheck": "PASS",
+  "lint": "0 errors; 2 existing setSidebarTab dependency warnings in unchanged effects",
+  "nativeBuild": "NOT_RUN",
+  "realAgents": "NOT_RUN",
+  "n8n": "NOT_RUN",
+  "qa": "Producer only; independent QA NOT_RUN",
+  "screenshots": 9
+}

@@ -1,0 +1,39 @@
+.notice {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  gap: calc(var(--radius-md) * 2);
+  padding: 8px 16px;
+  border-top: 1px solid var(--border);
+  background: var(--bg-elevated);
+  color: var(--fg-muted);
+  font-size: 10px;
+}
+.notice span {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.notice strong {
+  color: var(--accent);
+  font-weight: 500;
+}
+.notice small {
+  font-size: 10px;
+}
+.notice button,
+.notice a {
+  color: var(--fg);
+  background: var(--bg-sunken);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 6px 10px;
+  font-size: 10px;
+  cursor: pointer;
+  text-decoration: none;
+}

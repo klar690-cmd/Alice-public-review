@@ -1,0 +1,29 @@
+
+ RUN  v4.1.10 C:/Projetos/RumoAoMilhao-ASSISTENTE/.local/r251/alice
+
+ ✓ src/lib/aliceEntry.test.ts > Alice preferred-name to Home entry > rejects corrupt/blank names safely 3ms
+ ✓ src/lib/aliceEntry.test.ts > Alice preferred-name to Home entry > rejects corrupt/blank names safely 0ms
+ ✓ src/lib/aliceEntry.test.ts > Alice preferred-name to Home entry > rejects corrupt/blank names safely 0ms
+ ✓ src/lib/aliceEntry.test.ts > Alice preferred-name to Home entry > rejects corrupt/blank names safely 0ms
+ ✓ src/lib/aliceEntry.test.ts > Alice preferred-name to Home entry > rejects corrupt/blank names safely 0ms
+ ✓ src/lib/aliceEntry.test.ts > Alice preferred-name to Home entry > rejects corrupt/blank names safely 0ms
+ ✓ src/lib/aliceEntry.test.ts > Alice preferred-name to Home entry > rejects corrupt/blank names safely 0ms
+ ✓ src/lib/aliceEntry.test.ts > Alice preferred-name to Home entry > preserves full capitalization and accents 0ms
+ ✓ src/lib/aliceEntry.test.ts > Alice preferred-name to Home entry > first run opens existing Welcome on Home without changing workspace data 8ms
+ ✓ src/lib/aliceEntry.test.ts > Alice preferred-name to Home entry > completed profile starts Home and does not reprompt even with legacy workspace preference 1ms
+ ✓ src/lib/aliceEntry.test.ts > Alice preferred-name to Home entry > each profile has its own completion/name and malformed names require Welcome 0ms
+ ✓ src/stores/projectsStore.aliceEntry.test.ts > Alice profile hydration isolation > missing new profile file never carries previous name/projects/layout 7ms
+ ✓ src/stores/projectsStore.aliceEntry.test.ts > Alice profile hydration isolation > corrupt profile file falls back to its own blank Home state 2ms
+ ✓ src/stores/projectsStore.aliceEntry.test.ts > Alice profile hydration isolation > invalid serialized name is sanitized without deleting its valid saved project records 6ms
+ ✓ src/plugins/theme-pack/creamRose.test.ts > R224 optional whole-app palette > validates every token without CSS injection or network references 6ms
+ ✓ src/plugins/theme-pack/creamRose.test.ts > R224 optional whole-app palette > provides AA text contrast on canvas, cards, hover and selected surfaces 3ms
+ ✓ src/plugins/theme-pack/creamRose.test.ts > R224 optional whole-app palette > covers agent brands with readable colors and distinct semantic states 1ms
+ ✓ src/plugins/theme-pack/creamRose.test.ts > R224 optional whole-app palette > has a complete readable ANSI palette without changing terminal font or metrics 5ms
+ ✓ src/plugins/theme-pack/creamRose.test.ts > R224 optional whole-app palette > leaves defaults and built-in terminal palettes intact while enabling and reverting the skin 2ms
+ ✓ src/plugins/theme-pack/creamRose.test.ts > R224 optional whole-app palette > falls back on corrupt selection while preserving safe unavailable plugin preferences 1ms
+
+ Test Files  3 passed (3)
+      Tests  20 passed (20)
+   Start at  14:51:23
+   Duration  2.88s (transform 2.11s, setup 554ms, import 2.80s, tests 56ms, environment 2.81s)
+

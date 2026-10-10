@@ -1,0 +1,116 @@
+{
+  "source": "b85fa553a16e61d372140496c4636a9556594c66",
+  "algorithm": "SHA-256",
+  "files": [
+    {
+      "path": "docs/alice/v2/m2/sidebar-drag/Alice-sidebar-drag-preview.html",
+      "bytes": 31525292,
+      "sha256": "ccbf81134bc8521f58d39af32821e93a12728e0145ae8ebf8d59b22a0ba09984"
+    },
+    {
+      "path": "docs/alice/v2/m2/sidebar-drag/HOME_FUNCTION_INVENTORY.md",
+      "bytes": 1712,
+      "sha256": "09b6453817ea2af71be35467b85991ea3cbb18dbaa882071691a2b991671f88c"
+    },
+    {
+      "path": "docs/alice/v2/m2/sidebar-drag/PREVIEWS.md",
+      "bytes": 3694,
+      "sha256": "230decc5deb495ba0f01c5451d1807485bdbc3639837908859abf4ed44316c89"
+    },
+    {
+      "path": "docs/alice/v2/m2/sidebar-drag/README.md",
+      "bytes": 2504,
+      "sha256": "6d917f56af5b34a2b393aa2347deba0edcf1b0e3d0c54b47f6253b5b9f7fa5ad"
+    },
+    {
+      "path": "docs/alice/v2/m2/sidebar-drag/RESULT.md",
+      "bytes": 3519,
+      "sha256": "23ce676ba2d9e377987566017d1869e52d5442ff68664ce921961ef7a2b7f0df"
+    },
+    {
+      "path": "docs/alice/v2/m2/sidebar-drag/browser-results.json",
+      "bytes": 3029,
+      "sha256": "755ee3cf76e25d9379455d7453d1359185233f3da53e10cb271792c6dbdfce1d"
+    },
+    {
+      "path": "docs/alice/v2/m2/sidebar-drag/logs/lint.txt",
+      "bytes": 833,
+      "sha256": "d3ec596012d2ed23b52d5dbd8a154c4cb1e75fe304549946e9805ff8aaced4e5"
+    },
+    {
+      "path": "docs/alice/v2/m2/sidebar-drag/logs/sidebar-build.txt",
+      "bytes": 574,
+      "sha256": "24ff93ef9021a9bdb99676ada18e27fc864597ca3cb78c6a0486747cbc7b956b"
+    },
+    {
+      "path": "docs/alice/v2/m2/sidebar-drag/logs/sidebar-tests.txt",
+      "bytes": 17503,
+      "sha256": "63a0ca8e451517806dd13da2bbc410a2579dd2bb9639fafe5468c69ca2735e2b"
+    },
+    {
+      "path": "docs/alice/v2/m2/sidebar-drag/logs/typecheck.txt",
+      "bytes": 59,
+      "sha256": "3cb24f9efc712fd64b595c5c429f169e50a6b5fa5c6f7afc094f79faf5a4f73f"
+    },
+    {
+      "path": "docs/alice/v2/m2/sidebar-drag/portable-results.json",
+      "bytes": 305,
+      "sha256": "d8e5d4bbf4858cfcabc5944e5780769350c6ef505caef55d147ac2a22a4be05f"
+    },
+    {
+      "path": "docs/alice/v2/m2/sidebar-drag/preservation.json",
+      "bytes": 6325,
+      "sha256": "86306d1bf3fe6d42186981ab0e48a5eda8c6e0f1a56260adfb3c2b4b14405b3e"
+    },
+    {
+      "path": "docs/alice/v2/m2/sidebar-drag/screenshots/01-home-sidebar.png",
+      "bytes": 213385,
+      "sha256": "5904556653e9f1364770a90ed42090eafc925ed1bbee40b99e56a0cee3f68176"
+    },
+    {
+      "path": "docs/alice/v2/m2/sidebar-drag/screenshots/02-integrated-editor.png",
+      "bytes": 102125,
+      "sha256": "1a97c7de4053799a3bb84d1c2ee61e69a0b146299c9cce2bf96667bbdfe34d1d"
+    },
+    {
+      "path": "docs/alice/v2/m2/sidebar-drag/screenshots/03-drag-line.png",
+      "bytes": 113546,
+      "sha256": "850649126df8b95720eb06d33041bb0961517c240be1d1ac55ec8bdcfb12c055"
+    },
+    {
+      "path": "docs/alice/v2/m2/sidebar-drag/screenshots/04-manual-connected.png",
+      "bytes": 110183,
+      "sha256": "33b41874da8f6187ebdcb141ad1b770c7e50cba6d2a4793cf7e35b02ca72fa1f"
+    },
+    {
+      "path": "docs/alice/v2/m2/sidebar-drag/screenshots/05-simulated-complete.png",
+      "bytes": 112092,
+      "sha256": "119393c270f14197ca29b946528e2561b4076cbdb6bde02c62d84d8c5fe5d873"
+    },
+    {
+      "path": "docs/alice/v2/m2/sidebar-drag/screenshots/06-integrated-cream.png",
+      "bytes": 114211,
+      "sha256": "f6e8f94f0ae4c93a6b3a3c763c469060ac70aa79304057b61635b52c4d62d8df"
+    },
+    {
+      "path": "docs/alice/v2/m2/sidebar-drag/screenshots/07-return-home.png",
+      "bytes": 212290,
+      "sha256": "f652a3b97ccb932dc0bb2f1bded3bab5ea474b7b26cb0f49f908db826e0f0556"
+    },
+    {
+      "path": "docs/alice/v2/m2/sidebar-drag/screenshots/08-narrow-editor.png",
+      "bytes": 72742,
+      "sha256": "1b9b206e4bf1aff61a04f4fa122ed84084a44af6743a143d7acc538dcc238d7f"
+    },
+    {
+      "path": "docs/alice/v2/m2/sidebar-drag/screenshots/14-standalone-editor.png",
+      "bytes": 101178,
+      "sha256": "445201992d7df6ccf35e2829cdcad7a9c5a80d3c0fbf2d1e826aeab9e7ce7fc7"
+    },
+    {
+      "path": "docs/alice/v2/m2/sidebar-drag/validation.json",
+      "bytes": 1166,
+      "sha256": "a601edae7e43b8ccbc4078c89afea49ef6722575f06f2a016005931e0c88cc7c"
+    }
+  ]
+}

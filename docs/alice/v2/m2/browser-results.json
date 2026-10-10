@@ -1,0 +1,140 @@
+{
+  "source": "fe804e34b1ad43244ec1ac8401c9576079244e3b",
+  "engine": "Chrome headless, isolated context; actual browser frontend; no native capture",
+  "browser": "154.0.8037.98",
+  "url": "http://127.0.0.1:1436/src/preview/aliceV2/index.html",
+  "screenshots": [
+    {
+      "file": "01-home-original.png",
+      "viewport": {
+        "width": 1600,
+        "height": 1000
+      },
+      "theme": "elite-indigo",
+      "caption": "Original classic Home after preferred-name onboarding; large animated ASCII A. Only the demo preview adds an opt-in entry button."
+    },
+    {
+      "file": "02-gg-chat.png",
+      "viewport": {
+        "width": 1600,
+        "height": 1000
+      },
+      "theme": "elite-indigo",
+      "caption": "One GG conversation, local sample responses, and fake-only team overview."
+    },
+    {
+      "file": "03-chat-approval.png",
+      "viewport": {
+        "width": 1600,
+        "height": 1000
+      },
+      "theme": "elite-indigo",
+      "caption": "User request and local GG response; M1 waits for explicit fake-only approval."
+    },
+    {
+      "file": "04-node-editor.png",
+      "viewport": {
+        "width": 1600,
+        "height": 1000
+      },
+      "theme": "elite-indigo",
+      "caption": "Editable GG, Dev, Auditor canvas with scoped inspector; pure M1 graph."
+    },
+    {
+      "file": "05-inspector.png",
+      "viewport": {
+        "width": 1600,
+        "height": 1000
+      },
+      "theme": "elite-indigo",
+      "caption": "Renamed Dev, dragged node and saved canvas layout; fake provider is fixed."
+    },
+    {
+      "file": "06-cycle-rejected.png",
+      "viewport": {
+        "width": 1600,
+        "height": 1000
+      },
+      "theme": "elite-indigo",
+      "caption": "M1 rejects Auditor → GG cycle without replacing the valid graph."
+    },
+    {
+      "file": "07-teams.png",
+      "viewport": {
+        "width": 1600,
+        "height": 1000
+      },
+      "theme": "elite-indigo",
+      "caption": "Two presets and a cloned configuration; saving is explicitly limited to the current demo session."
+    },
+    {
+      "file": "08-running-replay.png",
+      "viewport": {
+        "width": 1600,
+        "height": 1000
+      },
+      "theme": "elite-indigo",
+      "caption": "In-flight states replay real captured M1 events; no worker or n8n is live."
+    },
+    {
+      "file": "09-completed-replay.png",
+      "viewport": {
+        "width": 1600,
+        "height": 1000
+      },
+      "theme": "elite-indigo",
+      "caption": "Completed playback and actual local deterministic M1 receipts."
+    },
+    {
+      "file": "10-editor-cream-rose.png",
+      "viewport": {
+        "width": 1600,
+        "height": 1000
+      },
+      "theme": "cream-rose",
+      "caption": "Same M2 editor uses existing Cream & Rose theme tokens, without theme-file edits."
+    },
+    {
+      "file": "11-chat-cream-rose.png",
+      "viewport": {
+        "width": 1600,
+        "height": 1000
+      },
+      "theme": "cream-rose",
+      "caption": "GG conversation under existing Cream & Rose tokens."
+    },
+    {
+      "file": "12-editor-narrow.png",
+      "viewport": {
+        "width": 850,
+        "height": 1000
+      },
+      "theme": "cream-rose",
+      "caption": "850px responsive canvas with inspector below; scrollable document."
+    },
+    {
+      "file": "13-return-home.png",
+      "viewport": {
+        "width": 1600,
+        "height": 1000
+      },
+      "theme": "elite-indigo",
+      "caption": "Leaving the demo returns directly to the same classic Home and ASCII animation."
+    }
+  ],
+  "checks": [
+    "Default starts on unchanged classic Home after preferred name",
+    "Pointer drag, keyboard movement, inspector edit, and session save",
+    "Accessible zoom, fit, and keyboard panning",
+    "Cycle rejected with inline explanation",
+    "Invalid unconnected draft blocks save",
+    "Preset switch keeps conversation isolated",
+    "Narrow viewport has no horizontal document overflow",
+    "Leaving V2 returns to original personalized Home",
+    "Reload keeps V2 opt-out",
+    "No page errors or external HTTP calls"
+  ],
+  "errors": [],
+  "blocked": [],
+  "status": "PASS"
+}

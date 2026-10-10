@@ -1,0 +1,185 @@
+.view {
+  display: flex;
+  flex-direction: column;
+  gap: var(--radius-md);
+  padding: calc(var(--radius-md) * 1.5);
+  min-width: 0;
+  color: var(--fg);
+}
+.view h3,
+.section h3 {
+  display: flex;
+  align-items: center;
+  gap: var(--radius-md);
+  font-size: 12px;
+  margin: 8px 0;
+}
+.muted {
+  color: var(--fg-muted);
+  font-size: 12px;
+  line-height: 1.6;
+  margin: 0;
+}
+.account {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: calc(var(--radius-md) * 1.5);
+  background: var(--bg-elevated);
+  transition: border-color 150ms ease;
+}
+.selected {
+  border-color: var(--accent);
+}
+.accountTitle {
+  display: flex;
+  align-items: center;
+  gap: var(--radius-md);
+  color: var(--fg);
+  background: none;
+  border: 0;
+  padding: 0;
+  text-align: left;
+  cursor: pointer;
+}
+.agentRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--radius-md);
+  padding: 8px 0;
+  border-top: 1px solid var(--border);
+  font-size: 12px;
+}
+.agentRow small {
+  color: var(--fg-muted);
+}
+.badge {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 2px 6px;
+  color: var(--fg-muted);
+  font-size: 10px;
+}
+.section {
+  border-top: 1px solid var(--border);
+  padding-top: calc(var(--radius-md) * 1.5);
+  display: flex;
+  flex-direction: column;
+  gap: var(--radius-md);
+}
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--radius-md);
+  align-items: center;
+}
+.actions a {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--radius-sm);
+  text-decoration: none;
+}
+.columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: calc(var(--radius-md) * 3);
+}
+.columns h3 {
+  font-size: 13px;
+  margin: 16px 0 12px;
+}
+.banner,
+.notice {
+  padding: 8px 12px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--bg-elevated);
+  color: var(--accent);
+  font-size: 11px;
+  line-height: 1.5;
+}
+.sessionBody {
+  flex: 1;
+  min-width: 0;
+  min-height: 0;
+  padding: calc(var(--radius-md) * 3);
+  overflow: auto;
+  display: flex;
+  flex-direction: column;
+  gap: calc(var(--radius-md) * 1.75);
+}
+.sessionBody h2 {
+  font-size: 18px;
+  margin: 0;
+}
+.details {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px 14px;
+  font-size: 12px;
+  margin: 0;
+}
+.details dt {
+  color: var(--fg-muted);
+}
+.details dd {
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+.event {
+  padding: calc(var(--radius-md) * 1.5);
+  border: 1px solid var(--border);
+  background: var(--bg-sunken);
+  color: var(--fg-muted);
+  border-radius: var(--radius-sm);
+  font: 11px var(--font-mono);
+  overflow: auto;
+}
+.error {
+  color: var(--status-offline);
+  font-size: 12px;
+}
+.link {
+  display: flex;
+  align-items: center;
+  gap: var(--radius-sm);
+  color: var(--fg-muted);
+  font-size: 11px;
+}
+@media (max-width: 760px) {
+  .columns {
+    grid-template-columns: 1fr;
+  }
+  .sessionBody {
+    padding: calc(var(--radius-md) * 2);
+  }
+}
+
+.agentDetail {
+  display: flex;
+  flex-direction: column;
+  gap: var(--radius-md);
+  padding-block: var(--radius-md);
+  min-width: 0;
+}
+.account details summary {
+  cursor: pointer;
+}
+.account,
+.section {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.paneTitle {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.paneHeaderMeta {
+  min-width: 0;
+  flex-shrink: 2;
+  overflow: hidden;
+  white-space: nowrap;
+}

@@ -1,0 +1,15 @@
+{
+  "source": "39a87e666ae18fb1f3793730f0207c8bff5a1dec",
+  "entry": "docs/alice/v2/m3g/Alice-browser.html -> src/preview/main.tsx -> src/main.tsx -> App (no overrides)",
+  "url": "http://127.0.0.1:1448/docs/alice/v2/m3g/Alice-browser.html",
+  "browser": "154.0.8037.98",
+  "mode": "Existing full App and actual useAliceV2Navigation; isolated synthetic local bridge data; no mainOverride or alternate UI",
+  "checks": [
+    "HTTP200 concrete local Alice App route"
+  ],
+  "errors": [],
+  "external": [],
+  "screenshots": [],
+  "status": "FAIL",
+  "failure": "locator.click: Timeout 30000ms exceeded.\nCall log:\n\u001b[2m  - waiting for getByRole('button', { name: 'Fechar sidebar de tarefas', exact: true })\u001b[22m\n\u001b[2m    - locator resolved to <button type=\"button\" class=\"_toolbarUtility_1bgp0_135\" title=\"Fechar sidebar de tarefas\" aria-label=\"Fechar sidebar de tarefas\">…</button>\u001b[22m\n\u001b[2m  - attempting click action\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <canvas role=\"img\" width=\"682\" height=\"780\" aria-label=\"\" class=\"_canvas_1tswl_15\"></canvas> from <div id=\"alethe-main\" data-panel=\"true\" data-testid=\"alethe-main\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m    - waiting 20ms\u001b[22m\n\u001b[2m    2 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m      - element is visible, enabled and stable\u001b[22m\n\u001b[2m      - scrolling into view if needed\u001b[22m\n\u001b[2m      - done scrolling\u001b[22m\n\u001b[2m      - <canvas role=\"img\" width=\"682\" height=\"780\" aria-label=\"\" class=\"_canvas_1tswl_15\"></canvas> from <div id=\"alethe-main\" data-panel=\"true\" data-testid=\"alethe-main\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m    - retrying click action\u001b[22m\n\u001b[2m      - waiting 100ms\u001b[22m\n\u001b[2m    49 × waiting for element to be visible, enabled and stable\u001b[22m\n\u001b[2m       - element is visible, enabled and stable\u001b[22m\n\u001b[2m       - scrolling into view if needed\u001b[22m\n\u001b[2m       - done scrolling\u001b[22m\n\u001b[2m       - <canvas role=\"img\" width=\"682\" height=\"780\" aria-label=\"\" class=\"_canvas_1tswl_15\"></canvas> from <div id=\"alethe-main\" data-panel=\"true\" data-testid=\"alethe-main\">…</div> subtree intercepts pointer events\u001b[22m\n\u001b[2m     - retrying click action\u001b[22m\n\u001b[2m       - waiting 500ms\u001b[22m\n\n    at C:\\Projetos\\RumoAoMilhao-ASSISTENTE\\.local\\r271\\browser.mjs:22:97"
+}

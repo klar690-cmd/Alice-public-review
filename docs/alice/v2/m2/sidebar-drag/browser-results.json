@@ -1,0 +1,98 @@
+{
+  "source": "b85fa553a16e61d372140496c4636a9556594c66",
+  "engine": "Isolated Chrome headless actual browser UI",
+  "browser": "154.0.8037.98",
+  "checks": [
+    "V2 navigation lies inside original sidebar rail",
+    "V2 fills main panel while classic sidebar stays mounted",
+    "First manual wire accepted while other inputs remain incomplete",
+    "Connection line follows dragged port",
+    "All manual wires complete a valid four-agent graph",
+    "Dropping on empty canvas cancels without a new connection",
+    "Escape cancels dragging even after using the external inspector/header",
+    "Cycle is still rejected after manual wiring",
+    "Exit returns to same named Home",
+    "Browser Back and Forward preserve navigation",
+    "Original Home navigation also exits V2",
+    "Narrow view has no document horizontal overflow",
+    "V2 still starts off",
+    "No browser errors or external HTTP"
+  ],
+  "errors": [],
+  "external": [],
+  "screenshots": [
+    {
+      "file": "01-home-sidebar.png",
+      "caption": "Original personalized ASCII Home with Alice V2 entry in the persistent left sidebar; no floating launcher.",
+      "viewport": {
+        "width": 1700,
+        "height": 1050
+      },
+      "theme": "elite-indigo"
+    },
+    {
+      "file": "02-integrated-editor.png",
+      "caption": "V2 editor embedded in original Alice shell and sidebar.",
+      "viewport": {
+        "width": 1700,
+        "height": 1050
+      },
+      "theme": "elite-indigo"
+    },
+    {
+      "file": "03-drag-line.png",
+      "caption": "Actual pending connection line follows the cursor from the output circle.",
+      "viewport": {
+        "width": 1700,
+        "height": 1050
+      },
+      "theme": "elite-indigo"
+    },
+    {
+      "file": "04-manual-connected.png",
+      "caption": "Four agents connected by direct port dragging; full M1 validation now permits save and simulated execution.",
+      "viewport": {
+        "width": 1700,
+        "height": 1050
+      },
+      "theme": "elite-indigo"
+    },
+    {
+      "file": "05-simulated-complete.png",
+      "caption": "Actual deterministic four-agent M1 playback completed; no real agents or n8n.",
+      "viewport": {
+        "width": 1700,
+        "height": 1050
+      },
+      "theme": "elite-indigo"
+    },
+    {
+      "file": "06-integrated-cream.png",
+      "caption": "Integrated sidebar/editor uses the existing Cream & Rose theme.",
+      "viewport": {
+        "width": 1700,
+        "height": 1050
+      },
+      "theme": "cream-rose"
+    },
+    {
+      "file": "07-return-home.png",
+      "caption": "Original Home icon returns to unchanged personalized Home and ASCII A.",
+      "viewport": {
+        "width": 1700,
+        "height": 1050
+      },
+      "theme": "elite-indigo"
+    },
+    {
+      "file": "08-narrow-editor.png",
+      "caption": "850px view with teams collapsed and inspector scrollable below canvas.",
+      "viewport": {
+        "width": 850,
+        "height": 1000
+      },
+      "theme": "elite-indigo"
+    }
+  ],
+  "status": "PASS"
+}

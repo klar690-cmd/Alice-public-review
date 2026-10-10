@@ -1,0 +1,23 @@
+{
+  "source": "7c61693a0345252996a7f4f6ed673e639ce14fb0",
+  "status": "PASS",
+  "url": "http://127.0.0.1:1448/docs/alice/v2/m3g/Alice-browser.html",
+  "browserChecks": 27,
+  "screenshots": 9,
+  "offlineHTML": true,
+  "offlineStatus": "PASS",
+  "unitTests": {
+    "total": 446,
+    "passed": 446,
+    "failed": 0,
+    "files": 21
+  },
+  "protectedOriginalFiles": 17,
+  "nonExecutingChoices": true,
+  "codeCommits": [
+    "c8d646a7546cd983aaaa8b16d9b3d7ee2a8f75f7",
+    "39a87e666ae18fb1f3793730f0207c8bff5a1dec",
+    "59abdd933a316eb84762882d2355761364f466a7",
+    "7c61693a0345252996a7f4f6ed673e639ce14fb0"
+  ]
+}

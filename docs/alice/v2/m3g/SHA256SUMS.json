@@ -1,0 +1,206 @@
+{
+  "source": "7c61693a0345252996a7f4f6ed673e639ce14fb0",
+  "algorithm": "SHA-256",
+  "files": [
+    {
+      "path": "docs/alice/v2/m3g/.gitattributes",
+      "sha256": "5d13f487b87ced8ec22edfca16553f5d376ea8aa7ae70d706a1b11a9d337081b",
+      "bytes": 34
+    },
+    {
+      "path": "docs/alice/v2/m3g/.gitignore",
+      "sha256": "c740db8c5771bc53deca3faf16465ffd78a57c5bc6df70143f0a8f422fb469ab",
+      "bytes": 10
+    },
+    {
+      "path": "docs/alice/v2/m3g/Alice-V2-preview.html",
+      "sha256": "2cab89a3741e27efa46b35b107e6eeb19110c5127b0da79a0f13823ec6aef9fc",
+      "bytes": 31458483
+    },
+    {
+      "path": "docs/alice/v2/m3g/Alice-browser.html",
+      "sha256": "b82c21c744c7d135b1edbda955b40d20a25991d9629b556406eae33b9144510d",
+      "bytes": 517
+    },
+    {
+      "path": "docs/alice/v2/m3g/BROWSER_INITIAL.json",
+      "sha256": "8509eeefafad8f8d6b1f3c5a4c49b0043eaf3dd35d854389444ee847d415a197",
+      "bytes": 2830
+    },
+    {
+      "path": "docs/alice/v2/m3g/BROWSER_RESULTS.json",
+      "sha256": "5a50b74d0ba1e341137499cfac78d61ee83f1aa65077631447531321462c766d",
+      "bytes": 6760
+    },
+    {
+      "path": "docs/alice/v2/m3g/CHECK_RESULTS.json",
+      "sha256": "23f8fe17ce8cf614c989ac16ddec81a09ed037e5e44e3c94ab4503dd5610a225",
+      "bytes": 3046
+    },
+    {
+      "path": "docs/alice/v2/m3g/CODE_MANIFEST.json",
+      "sha256": "45a45fee002ac38cbbf881a960aeab6c7d1574895c7a08caa04c0d5f54212826",
+      "bytes": 5231
+    },
+    {
+      "path": "docs/alice/v2/m3g/DELIVERY_CHECKS.json",
+      "sha256": "7b7f97e4b88c3aaa07fc3c60e72660474458eb9d37fd41de53876ab40a647c43",
+      "bytes": 613
+    },
+    {
+      "path": "docs/alice/v2/m3g/EXPORT_RECEIPT.json",
+      "sha256": "781627945512af6d626c54fb6739827b49de925a1980fb0f42196cdd54b3ba3d",
+      "bytes": 846
+    },
+    {
+      "path": "docs/alice/v2/m3g/LAUNCHER_RESULTS.json",
+      "sha256": "6ef4407b8bcbd130edebee6b34342c84bb99a75478bd809ae54a247274d341c9",
+      "bytes": 443
+    },
+    {
+      "path": "docs/alice/v2/m3g/LOCAL_BROWSER_HARNESS.mjs",
+      "sha256": "df74b4d478c735cf34033152465b26a15ebeff972ca771651b053749c75fed8b",
+      "bytes": 18279
+    },
+    {
+      "path": "docs/alice/v2/m3g/OPEN_IN_BROWSER.md",
+      "sha256": "5df28bb3649df685502c960b64486343464918cdd3b2f8fb2823eddb6348cdfe",
+      "bytes": 4075
+    },
+    {
+      "path": "docs/alice/v2/m3g/Open-Alice.cmd",
+      "sha256": "fc7776714ee5cab7bfd893c1b9bc75026a87e8035106d94b67eed6c50b560839",
+      "bytes": 108
+    },
+    {
+      "path": "docs/alice/v2/m3g/Open-Alice.ps1",
+      "sha256": "7e0a42090573cff83e91b29100434029be3594fde44dfbfd925a2f587092a44b",
+      "bytes": 3492
+    },
+    {
+      "path": "docs/alice/v2/m3g/PRESERVATION.json",
+      "sha256": "d9df7a4d93e4f8e1d2d167926579b86c074c48fd2c047c81671b91482f68733f",
+      "bytes": 15781
+    },
+    {
+      "path": "docs/alice/v2/m3g/PRESERVATION.md",
+      "sha256": "e239e430bff4c5cf8bf1c502c14991d82d01cf2a019503535d217615cbe35bcc",
+      "bytes": 2490
+    },
+    {
+      "path": "docs/alice/v2/m3g/PREVIEWS.md",
+      "sha256": "f3fba10842c2dc7f9b5ade65ac90c532fcb9d3a1e818a250f833f32737e9fb62",
+      "bytes": 3187
+    },
+    {
+      "path": "docs/alice/v2/m3g/RESULT.md",
+      "sha256": "52ae8bf3204603d9f77b8d084b1f8d18413955f59f138b605bfa33911c00566f",
+      "bytes": 5985
+    },
+    {
+      "path": "docs/alice/v2/m3g/TEST_FOCUSED.json",
+      "sha256": "5e3fdb2105bc15680f77c045ed57ea742b8601a5017e9655ff7ad47e6eadc061",
+      "bytes": 40268
+    },
+    {
+      "path": "docs/alice/v2/m3g/TEST_FOCUSED_INITIAL.json",
+      "sha256": "99eab43f69ca61aa18098f04dfc37e753c4d118334a75855f782af7afb61b89d",
+      "bytes": 51768
+    },
+    {
+      "path": "docs/alice/v2/m3g/TEST_INTEGRATED.json",
+      "sha256": "27c438b4b47ae5b62e88a0d34c40d3da300a27e86879cc6d05cca4422b2bfd36",
+      "bytes": 145690
+    },
+    {
+      "path": "docs/alice/v2/m3g/TEST_INTEGRATED_INITIAL.json",
+      "sha256": "3c5e4306f72964a54a546c09df13cf5c89d74f646e4f0cef4b9bc97d0811d874",
+      "bytes": 145295
+    },
+    {
+      "path": "docs/alice/v2/m3g/TEST_MATRIX.md",
+      "sha256": "9f1817d030dd0faef94b0f6507a90096297eaa9a8a0e52e396fc0097653fa9ee",
+      "bytes": 3264
+    },
+    {
+      "path": "docs/alice/v2/m3g/TEST_PROFILE_SCOPE.json",
+      "sha256": "3d77bea5408a87214df24faf2c46d977ddb588afe923ccc51e7058d6b6fb4c1c",
+      "bytes": 3110
+    },
+    {
+      "path": "docs/alice/v2/m3g/TEST_ROUTING.json",
+      "sha256": "fb8bdfa20c2aeecbfa925610f47317ffd6300c6bf0b32ca7a20ba3dff33b15e0",
+      "bytes": 7686
+    },
+    {
+      "path": "docs/alice/v2/m3g/artifact-sink.setup.ts",
+      "sha256": "c0b949c8c7b1baf173d4c83be48d30ddb015691c718b4c35ea5b277af453d098",
+      "bytes": 1027
+    },
+    {
+      "path": "docs/alice/v2/m3g/export-offline.mjs",
+      "sha256": "837ca705f51c366d5188f11c383ac4e1c0ac611ce539cc95b542edba7e7e8769",
+      "bytes": 2262
+    },
+    {
+      "path": "docs/alice/v2/m3g/offline-regression.vitest.config.mjs",
+      "sha256": "1c13e7f0b97190329cdcedf281fc593d3690c4969087361df25adfe9c3bacbad",
+      "bytes": 337
+    },
+    {
+      "path": "docs/alice/v2/m3g/r262-regression/FIXTURE_CHAIN.json",
+      "sha256": "c50970f1fa275436195d3a41ebbb80194b31c07d9bcdeff7ce22c1aac1bd1fa4",
+      "bytes": 11862
+    },
+    {
+      "path": "docs/alice/v2/m3g/r262-regression/FIXTURE_N8N_IR.json",
+      "sha256": "2cb95c668d58b9207f00c35f0b2af0db33f33e67a4ac1050033f2adad74b7b6d",
+      "bytes": 2258
+    },
+    {
+      "path": "docs/alice/v2/m3g/screenshots/01-actual-home-original.png",
+      "sha256": "81871a9734951de3319487970e19b675f02d6a19a36d24347936fabd27d0751c",
+      "bytes": 210011
+    },
+    {
+      "path": "docs/alice/v2/m3g/screenshots/02-gg-openai-api-original.png",
+      "sha256": "df2e9fa68d34ffc70c1f40f6e96ca83b712aa2ce14b76011060052515a4991e7",
+      "bytes": 121199
+    },
+    {
+      "path": "docs/alice/v2/m3g/screenshots/03-worker-anthropic-account-original.png",
+      "sha256": "a9ace41a02092f9b7f81e8f2d534c525c7adb545815024ab95aa73f3857b8a1d",
+      "bytes": 121243
+    },
+    {
+      "path": "docs/alice/v2/m3g/screenshots/04-new-google-agent-original.png",
+      "sha256": "ede799f69ddfea0e3969d64d8b54af1b1c30a50571789ff14a23a5c765824e41",
+      "bytes": 128660
+    },
+    {
+      "path": "docs/alice/v2/m3g/screenshots/05-account-choice-cream-rose.png",
+      "sha256": "21334096728febe41c22ea1079763359bed7333dc692b3e40dff501330493c5f",
+      "bytes": 131128
+    },
+    {
+      "path": "docs/alice/v2/m3g/screenshots/06-account-choice-narrow.png",
+      "sha256": "f8949e522c4f5fab17858c13db5151a18ad605d307b556cb6f8012bfe29dba4e",
+      "bytes": 82873
+    },
+    {
+      "path": "docs/alice/v2/m3g/screenshots/07-project-b-independent.png",
+      "sha256": "d269a3f46dbe587d2e65a0a25b5803618f88d9472844f0096f5b8048d52ea60c",
+      "bytes": 124842
+    },
+    {
+      "path": "docs/alice/v2/m3g/screenshots/08-profile-b-independent.png",
+      "sha256": "eba1a413855cfe40bf34e32bd19fb78fb79881dba04cda8bca556a7073d21944",
+      "bytes": 128225
+    },
+    {
+      "path": "docs/alice/v2/m3g/screenshots/09-offline-actual-app.png",
+      "sha256": "0885e7bcc76b685bae97262680d8cb5d4bc3f1d8c9e24be9ac0dc2e649a28ba4",
+      "bytes": 121307
+    }
+  ]
+}

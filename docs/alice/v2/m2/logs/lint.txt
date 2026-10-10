@@ -1,0 +1,2 @@
+Command: node node_modules/eslint/bin/eslint.js src/components/AliceV2 src/stores/aliceV2UiStore.ts src/lib/aliceV2/uiAdapter.ts src/lib/aliceV2/uiAdapter.ui.test.ts src/preview/aliceV2
+Exit code: 0

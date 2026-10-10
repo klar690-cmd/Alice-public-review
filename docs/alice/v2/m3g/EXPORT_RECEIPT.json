@@ -1,0 +1,19 @@
+{
+  "source": "7c61693a0345252996a7f4f6ed673e639ce14fb0",
+  "entry": "docs/alice/v2/m3g/Alice-browser.html -> src/preview/main.tsx -> src/main.tsx -> App (no overrides)",
+  "bundler": "Cached Vite6.4.3 React frontend API only; configFile:false, no protected build config edit",
+  "file": "Alice-V2-preview.html",
+  "bytes": 31458483,
+  "sha256": "2cab89a3741e27efa46b35b107e6eeb19110c5127b0da79a0f13823ec6aef9fc",
+  "offlineClickTest": {
+    "url": "file:///C:/Projetos/RumoAoMilhao-ASSISTENTE/.local/r271/alice/docs/alice/v2/m3g/Alice-V2-preview.html",
+    "bytes": 31458483,
+    "sha256": "2cab89a3741e27efa46b35b107e6eeb19110c5127b0da79a0f13823ec6aef9fc",
+    "external": [],
+    "status": "PASS"
+  },
+  "fontsImagesScripts": "Bundled from existing App assets",
+  "nativeBuild": false,
+  "packageInstall": false,
+  "publicDeployment": false
+}

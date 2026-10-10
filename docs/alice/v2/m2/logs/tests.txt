@@ -1,0 +1,100 @@
+
+ RUN  v4.1.10 C:/Projetos/RumoAoMilhao-ASSISTENTE/.local/r251/alice
+
+ ✓ src/lib/aliceV2/uiAdapter.ui.test.ts > M2 graph adapter > uses validated fake-only GG → Dev → Auditor contracts 11ms
+ ✓ src/lib/aliceV2/uiAdapter.ui.test.ts > M2 graph adapter > rejects cycles transactionally and leaves the original graph frozen 3ms
+ ✓ src/lib/aliceV2/uiAdapter.ui.test.ts > M2 graph adapter > adds a typed join port without changing the input graph 5ms
+ ✓ src/lib/aliceV2/uiAdapter.ui.test.ts > M2 graph adapter > requires explicit simulated approval and exposes only captured outputs 15ms
+ ✓ src/lib/aliceV2/uiAdapter.ui.test.ts > M2 graph adapter > denial never yields successful fake messages 6ms
+ ✓ src/lib/aliceV2/uiAdapter.ui.test.ts > M2 in-memory teams and playback > starts opt-out and exits without deleting the selected conversation 6ms
+ ✓ src/lib/aliceV2/uiAdapter.ui.test.ts > M2 in-memory teams and playback > isolates profiles, presets, messages, and grants 4ms
+ ✓ src/lib/aliceV2/uiAdapter.ui.test.ts > M2 in-memory teams and playback > saves and restores graph, labels, and layout only within the session 3ms
+ ✓ src/lib/aliceV2/uiAdapter.ui.test.ts > M2 in-memory teams and playback > clones a new configuration scope without importing conversations or approval 8ms
+ ✓ src/lib/aliceV2/uiAdapter.ui.test.ts > M2 in-memory teams and playback > keeps the approved graph snapshot immutable after subsequent draft edits 13ms
+ ✓ src/lib/aliceV2/uiAdapter.ui.test.ts > M2 in-memory teams and playback > blocks invalid drafts and restores a valid saved team 3ms
+ ✓ src/lib/aliceV2/uiAdapter.ui.test.ts > M2 in-memory teams and playback > supports adding, duplicating, and deleting a selected draft agent 2ms
+ ✓ src/lib/aliceV2/uiAdapter.ui.test.ts > M2 in-memory teams and playback > does not accept an invalid link and exposes a validation error 1ms
+ ✓ src/lib/aliceV2/uiAdapter.ui.test.ts > M2 in-memory teams and playback > bounds canvas and replay progression and does not duplicate completion replies 9ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 contracts, validation and canonical planning > matches SHA-256 UTF-8 vectors for "" 4ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 contracts, validation and canonical planning > matches SHA-256 UTF-8 vectors for "abc" 0ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 contracts, validation and canonical planning > matches SHA-256 UTF-8 vectors for "Alice é ✨" 0ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 contracts, validation and canonical planning > matches SHA-256 UTF-8 vectors for "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx" 2ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 contracts, validation and canonical planning > matches SHA-256 UTF-8 vectors for "\ud800" 1ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 contracts, validation and canonical planning > matches SHA-256 UTF-8 vectors for "😀🧩" 1ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 contracts, validation and canonical planning > saves two independent definitions as pure data, without copying their scopes 11ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 contracts, validation and canonical planning > canonicalizes equivalent node/port/edge order into the same plan and immutable definition 6ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 contracts, validation and canonical planning > rejects future schema with stable error code 1ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 contracts, validation and canonical planning > rejects unknown graph field with stable error code 1ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 contracts, validation and canonical planning > rejects secret with stable error code 0ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 contracts, validation and canonical planning > rejects command node field with stable error code 0ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 contracts, validation and canonical planning > rejects unsafe identifier with stable error code 0ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 contracts, validation and canonical planning > rejects reserved identifier with stable error code 0ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 contracts, validation and canonical planning > rejects duplicate node with stable error code 1ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 contracts, validation and canonical planning > rejects duplicate edge id with stable error code 0ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 contracts, validation and canonical planning > rejects duplicate control dependency with stable error code 0ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 contracts, validation and canonical planning > rejects unknown node with stable error code 0ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 contracts, validation and canonical planning > rejects unknown port with stable error code 0ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 contracts, validation and canonical planning > rejects backwards port with stable error code 0ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 contracts, validation and canonical planning > rejects bad output schema with stable error code 0ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 contracts, validation and canonical planning > rejects bad port direction with stable error code 0ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 contracts, validation and canonical planning > rejects cycle with stable error code 0ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 contracts, validation and canonical planning > rejects missing required input with stable error code 0ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 contracts, validation and canonical planning > rejects no control dependency for data with stable error code 0ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 contracts, validation and canonical planning > rejects ambiguous input fan-in with stable error code 0ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 contracts, validation and canonical planning > rejects unsupported join with stable error code 0ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 contracts, validation and canonical planning > rejects cross-profile node with stable error code 0ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 contracts, validation and canonical planning > rejects cross-config node with stable error code 0ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 contracts, validation and canonical planning > rejects real provider with stable error code 0ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 contracts, validation and canonical planning > rejects live capability with stable error code 0ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 contracts, validation and canonical planning > rejects unknown budget with stable error code 0ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 contracts, validation and canonical planning > rejects nonfinite budget with stable error code 0ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 contracts, validation and canonical planning > rejects insufficient budget with stable error code 0ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 contracts, validation and canonical planning > rejects malformed graph null 0ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 contracts, validation and canonical planning > rejects malformed graph undefined 0ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 contracts, validation and canonical planning > rejects malformed graph 1 0ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 contracts, validation and canonical planning > rejects malformed graph "graph" 0ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 contracts, validation and canonical planning > rejects malformed graph {} 0ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 contracts, validation and canonical planning > rejects malformed imports, symbols, getters and sparse/accessor arrays without invoking them 3ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 contracts, validation and canonical planning > rejects non-JSON hidden properties, array subclasses and malformed Unicode 1ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 contracts, validation and canonical planning > supports explicit all-input joins without relying on storage order 6ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 bound fake handoff and immutable history > passes schema-checked A output to independently identified B exactly once 12ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 bound fake handoff and immutable history > waits without a grant and never advances implicitly when a grant arrives 7ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 bound fake handoff and immutable history > refuses fake grant denied without messages or invocation 2ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 bound fake handoff and immutable history > refuses fake grant expired without messages or invocation 2ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 bound fake handoff and immutable history > refuses fake grant not yet valid without messages or invocation 2ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 bound fake handoff and immutable history > refuses fake grant different digest without messages or invocation 2ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 bound fake handoff and immutable history > refuses fake grant different profile without messages or invocation 2ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 bound fake handoff and immutable history > refuses fake grant different owner without messages or invocation 2ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 bound fake handoff and immutable history > refuses fake grant different config without messages or invocation 1ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 bound fake handoff and immutable history > refuses fake grant different run without messages or invocation 2ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 bound fake handoff and immutable history > refuses fake grant different revision without messages or invocation 2ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 bound fake handoff and immutable history > refuses fake grant live access without messages or invocation 2ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 bound fake handoff and immutable history > refuses fake grant unapproved action without messages or invocation 2ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 bound fake handoff and immutable history > refuses untrusted output null before B 3ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 bound fake handoff and immutable history > refuses untrusted output {"schemaVersion":2} before B 2ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 bound fake handoff and immutable history > refuses untrusted output {"schemaVersion":1,"kind":"message","command":"bad"} before B 2ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 bound fake handoff and immutable history > rejects cross-run output and keeps adversarial content as literal data, never authority 6ms
+ ✓ src/components/AliceV2/Workspace.test.tsx > M2 accessible visual workspace > renders one GG conversation with explicit simulation and memory boundaries 175ms
+ ✓ src/components/AliceV2/Workspace.test.tsx > M2 accessible visual workspace > creates a local request and waits for deliberate fake approval 181ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 bound fake handoff and immutable history > isolates two configs, runs, profiles, correlations and caller mutations 9ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 bound fake handoff and immutable history > requires explicit recovery from before-effect and deduplicates committed effects 9ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 bound fake handoff and immutable history > requires explicit recovery from after-effect and deduplicates committed effects 6ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 bound fake handoff and immutable history > acknowledges repeated/replayed deliveries without new events or effects 7ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 bound fake handoff and immutable history > hydrates saved running work as interrupted without implicit restart or message repetition 8ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 bound fake handoff and immutable history > rejects revision/hash mismatch, corrupted checkpoint and duplicate receipts 6ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 bound fake handoff and immutable history > rejects unsafe saved output before restoring and cannot rewind expiry through recovery 4ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 bound fake handoff and immutable history > models bounded transient retry, exhausted retry, timeout, cancellation and tick budget 8ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 bound fake handoff and immutable history > replays a failed snapshot without losing its reason or silently retrying 3ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 bound fake handoff and immutable history > bounds repeated approval waits without unhandled budget exhaustion 2ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 bound fake handoff and immutable history > captures reproducible prototype evidence only when the test harness explicitly requests it 7ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 bound fake handoff and immutable history > uses no clock, random source, fetch or timer during simulation 7ms
+ ✓ src/lib/aliceV2/m1.test.ts > M1 bound fake handoff and immutable history > keeps production modules isolated from IO, native adapters and dynamic code by AST inspection 388ms
+ ✓ src/components/AliceV2/Workspace.test.tsx > M2 accessible visual workspace > supports keyboard node movement and editable inspector labels 222ms
+ ✓ src/components/AliceV2/Workspace.test.tsx > M2 accessible visual workspace > renders an inline cycle error without editing the valid graph 89ms
+ ✓ src/components/AliceV2/Workspace.test.tsx > M2 accessible visual workspace > keeps the activity view tied to captured M1 events 87ms
+
+ Test Files  3 passed (3)
+      Tests  91 passed (91)
+   Start at  14:50:54
+   Duration  3.39s (transform 861ms, setup 908ms, import 1.52s, tests 1.42s, environment 4.21s)
+
